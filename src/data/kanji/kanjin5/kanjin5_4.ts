@@ -1,0 +1,49 @@
+import { Kanji } from "../../../types";
+
+export const kanjin5_4: Kanji[] = [
+  { 
+    char: '日', level: 'N5', onyomi: ['NICHI', 'JITSU'], kunyomi: ['hi', 'ka'], meaning: 'Matahari / Hari', strokes: 4,
+    story: 'Bentuk kotak menyerupai matahari dengan garis cakrawala di tengah.',
+    examples: [
+        { word: '日曜日', reading: 'Nichiyoubi', meaning: 'Hari Minggu' },
+        { word: '今日', reading: 'Kyou', meaning: 'Hari ini' },
+        { word: '日本', reading: 'Nihon', meaning: 'Jepang' }
+    ]
+  },
+  { 
+    char: '月', level: 'N5', onyomi: ['GETSU', 'GATSU'], kunyomi: ['tsuki'], meaning: 'Bulan', strokes: 4,
+    story: 'Bentuk bulan sabit di langit malam.',
+    examples: [
+        { word: '月曜日', reading: 'Getsuyoubi', meaning: 'Hari Senin' },
+        { word: '一月', reading: 'Ichigatsu', meaning: 'Januari' },
+        { word: '今月', reading: 'Kongetsu', meaning: 'Bulan ini' }
+    ]
+  },
+  { 
+    char: '火', level: 'N5', onyomi: ['KA'], kunyomi: ['hi'], meaning: 'Api', strokes: 4,
+    story: 'Orang (人) yang sedang melompat menghindari percikan api di kiri kanannya.',
+    examples: [
+        { word: '火曜日', reading: 'Kayoubi', meaning: 'Hari Selasa' },
+        { word: '火山', reading: 'Kazan', meaning: 'Gunung berapi' },
+        { word: '花火', reading: 'Hanabi', meaning: 'Kembang api' }
+    ]
+  },
+  { 
+    char: '水', level: 'N5', onyomi: ['SUI'], kunyomi: ['mizu'], meaning: 'Air', strokes: 4,
+    story: 'Aliran air sungai utama di tengah dengan cipratan di kiri kanannya.',
+    examples: [
+        { word: '水曜日', reading: 'Suiyoubi', meaning: 'Hari Rabu' },
+        { word: '水', reading: 'Mizu', meaning: 'Air' },
+        { word: '水泳', reading: 'Suiei', meaning: 'Renang' }
+    ]
+  },
+  { 
+    char: '木', level: 'N5', onyomi: ['MOKU', 'BOKU'], kunyomi: ['ki'], meaning: 'Pohon', strokes: 4,
+    story: 'Pohon dengan batang lurus, cabang ke samping, dan akar ke bawah.',
+    examples: [
+        { word: '木曜日', reading: 'Mokuyoubi', meaning: 'Hari Kamis' },
+        { word: '木', reading: 'Ki', meaning: 'Pohon' },
+        { word: '木綿', reading: 'Momen', meaning: 'Kapas' }
+    ]
+  },
+];

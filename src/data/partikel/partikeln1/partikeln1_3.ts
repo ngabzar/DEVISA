@@ -1,0 +1,60 @@
+
+import { Particle } from "../../../types";
+
+export const partikeln1_3: Particle[] = [
+  { 
+    char: '手前 (Temae)', 
+    usage: 'Karena di depan... (Gengsi)', 
+    explanation: '[Rumus: KB + の + 手前] Karena di depan... / Karena sudah terlanjur..., maka harus (menjaga gengsi/tanggung jawab/citra diri).', 
+    example: '子供の手前、泣くわけにはいかない (Karena di depan anak-anak, saya tidak boleh menangis).', 
+    level: 'N1',
+    examples: [
+      { japanese: '約束した手前、行かないわけにはいかない。', romaji: 'Yakusoku shita temae, ikanai wake ni wa ikanai.', meaning: 'Karena sudah terlanjur janji, tidak mungkin saya tidak pergi.' },
+      { japanese: '世間体の手前、派手な生活はできない。', romaji: 'Sekentei no temae, hade na seikatsu wa dekinai.', meaning: 'Demi pandangan masyarakat, saya tidak bisa hidup bermewah-mewah.' }
+    ]
+  },
+  { 
+    char: 'とあって (To atte)', 
+    usage: 'Karena kondisinya... (Wajar)', 
+    explanation: '[Rumus: KB/Kalimat Biasa + とあって] Karena berada dalam situasi khusus/luar biasa tersebut, maka wajar jika terjadi...', 
+    example: '久しぶりの連休とあって、どこも人でいっぱいだ (Karena ini libur panjang yang jarang, di mana pun penuh orang).', 
+    level: 'N1',
+    examples: [
+      { japanese: '社長の命令とあっては、従わざるを得ない。', romaji: 'Shachou no meirei to atte wa, shitagawazaru o enai.', meaning: 'Karena ini perintah presdir, mau tidak mau harus patuh.' },
+      { japanese: '有名人の結婚式とあって、多くのマスコミが集まった。', romaji: 'Yuumeijin no kekkonshiki to atte, ooku no masukomi ga atsumatta.', meaning: 'Karena ini pernikahan selebriti, banyak media massa berkumpul.' }
+    ]
+  },
+  { 
+    char: 'とはいえ (To wa ie)', 
+    usage: 'Meskipun dikatakan...', 
+    explanation: '[Rumus: Kalimat Biasa + とはいえ] Meskipun benar bahwa..., tapi kenyataannya... (Menyangkal asumsi umum).', 
+    example: '春とはいえ、まだ寒い (Meskipun dibilang sudah musim semi, masih dingin).', 
+    level: 'N1',
+    examples: [
+      { japanese: '不況とはいえ、この会社は業績を伸ばしている。', romaji: 'Fukyou to wa ie, kono kaisha wa gyouseki o nobashite iru.', meaning: 'Meskipun dibilang sedang resesi, perusahaan ini kinerjanya meningkat.' },
+      { japanese: '静かだとはいえ、山の中の一軒家は寂しすぎる。', romaji: 'Shizuka da to wa ie, yama no naka no ikkenya wa sabishisugiru.', meaning: 'Meskipun tenang, rumah sendirian di tengah gunung itu terlalu kesepian.' }
+    ]
+  },
+  { 
+    char: 'とばかりに (To bakari ni)', 
+    usage: 'Seolah-olah berkata...', 
+    explanation: '[Rumus: Kalimat + とばかりに] Menunjukkan emosi/sikap lewat tindakan yang sangat jelas, seolah-olah sedang meneriakkan kalimat tersebut.', 
+    example: '彼は「出て行け」とばかりに、ドアを指差した (Dia menunjuk pintu seolah-olah berkata "Keluar sana!").', 
+    level: 'N1',
+    examples: [
+      { japanese: '彼女は聞こえないとばかりに、無視して歩き続けた。', romaji: 'Kanojo wa kikoenai to bakari ni, mushi shite arukitsuzuketa.', meaning: 'Dia terus berjalan mengabaikan, seolah-olah (bilang) tidak dengar.' },
+      { japanese: 'ここぞとばかりに、日頃の不満をぶちまけた。', romaji: 'Kokozo to bakari ni, higoro no fuman o buchimaketa.', meaning: 'Seolah-olah (bilang) "inilah saatnya", dia meluapkan ketidakpuasan sehari-harinya.' }
+    ]
+  },
+  { 
+    char: 'ないものでもない (Nai mono demo nai)', 
+    usage: 'Bukan tidak mungkin...', 
+    explanation: '[Rumus: KK(Nai) + ものでもない] Ada kemungkinan kecil untuk dilakukan/terjadi jika kondisinya pas. Ungkapan ragu-ragu.', 
+    example: '今すぐ行けば、間に合わないものでもない (Kalau pergi sekarang, bukan tidak mungkin keburu).', 
+    level: 'N1',
+    examples: [
+      { japanese: '条件によっては、引き受けないものでもない。', romaji: 'Jouken ni yotte wa, hikiukenai mono demo nai.', meaning: 'Tergantung syaratnya, bukan tidak mungkin saya terima (mungkin mau).' },
+      { japanese: 'この服、少し派手だが、着られないものでもない。', romaji: 'Kono fuku, sukoshi hade da ga, kirarenai mono demo nai.', meaning: 'Baju ini agak mencolok, tapi bukan berarti tidak bisa dipakai.' }
+    ]
+  }
+];

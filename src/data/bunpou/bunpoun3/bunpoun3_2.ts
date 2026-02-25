@@ -1,0 +1,61 @@
+
+import { Grammar } from "../../../types";
+
+export const bunpoun3_2: Grammar[] = [
+  { 
+    title: '~によって (Ni yotte)', 
+    formula: 'KB + によって', 
+    explanation: 'Bisa berarti: 1. Oleh (Pasif), 2. Karena (Sebab), 3. Dengan cara, 4. Tergantung pada.', 
+    level: 'N3',
+    examples: [
+      { japanese: 'この絵はピカソによって描かれました。', romaji: 'Kono e wa Pikaso ni yotte egakaremashita.', meaning: 'Lukisan ini dilukis oleh Picasso.' },
+      { japanese: '事故によって、電車が遅れました。', romaji: 'Jiko ni yotte, densha ga okuremashita.', meaning: 'Kereta terlambat karena kecelakaan.' },
+      { japanese: '人によって考え方が違います。', romaji: 'Hito ni yotte kangaekata ga chigaimasu.', meaning: 'Cara berpikir berbeda-beda tergantung orangnya.' },
+      { japanese: 'インターネットによって、情報を集めます。', romaji: 'Inta-netto ni yotte, jouhou o atsumemasu.', meaning: 'Mengumpulkan informasi dengan internet.' }
+    ]
+  },
+  { 
+    title: '~たびに (Tabi ni)', 
+    formula: 'KK(Kamus) + たびに | KB + のたびに', 
+    explanation: 'Setiap kali melakukan A, selalu terjadi B.', 
+    level: 'N3',
+    examples: [
+      { japanese: 'この曲を聞くたびに、学生時代を思い出します。', romaji: 'Kono kyoku o kiku tabi ni, gakusei jidai o omoidashimasu.', meaning: 'Setiap kali mendengar lagu ini, saya teringat masa mahasiswa.' },
+      { japanese: '会うたびに、彼は大きくなっています。', romaji: 'Au tabi ni, kare wa ookiku natte imasu.', meaning: 'Setiap kali bertemu, dia (anak itu) bertambah besar.' },
+      { japanese: '買い物のたびに、袋をもらいます。', romaji: 'Kaimono no tabi ni, fukuro o moraimasu.', meaning: 'Setiap kali belanja, saya mendapat kantong.' }
+    ]
+  },
+  { 
+    title: '~ば~ほど (Ba... hodo)', 
+    formula: 'KK/KS(Ba) + KK/KS(Kamus) + ほど', 
+    explanation: 'Semakin ... semakin ...', 
+    level: 'N3',
+    examples: [
+      { japanese: '考えれば考えるほど、わからなくなります。', romaji: 'Kangaereba kangaeru hodo, wakaranaku narimasu.', meaning: 'Semakin dipikirkan, semakin tidak mengerti.' },
+      { japanese: '駅に近ければ近いほど、家賃が高いです。', romaji: 'Eki ni chikakereba chikai hodo, yachin ga takai desu.', meaning: 'Semakin dekat stasiun, sewa rumah semakin mahal.' },
+      { japanese: '日本語は話せば話すほど、上手になります。', romaji: 'Nihongo wa hanaseba hanasu hodo, jouzu ni narimasu.', meaning: 'Bahasa Jepang semakin sering dipakai bicara, semakin mahir.' }
+    ]
+  },
+  { 
+    title: '~ついでに (Tsuide ni)', 
+    formula: 'KK(Kamus/Ta) + ついでに | KB + のついでに', 
+    explanation: 'Sekalian melakukan B saat melakukan A (A adalah tujuan utama).', 
+    level: 'N3',
+    examples: [
+      { japanese: '買い物のついでに、郵便局へ行きました。', romaji: 'Kaimono no tsuide ni, yuubinkyoku e ikimashita.', meaning: 'Sekalian belanja, saya pergi ke kantor pos.' },
+      { japanese: '東京へ行ったついでに、友達に会いました。', romaji: 'Toukyou e itta tsuide ni, tomodachi ni aimashita.', meaning: 'Sekalian pergi ke Tokyo, saya bertemu teman.' },
+      { japanese: '散歩のついでに、手紙を出してきました。', romaji: 'Sanpo no tsuide ni, tegami o dashite kimashita.', meaning: 'Sekalian jalan-jalan, saya mengirim surat.' }
+    ]
+  },
+  { 
+    title: '~くらい / ~ぐらい (Kurai / Gurai)', 
+    formula: 'Bentuk Biasa + くらい', 
+    explanation: 'Menunjukkan tingkat/derajat. "Sampai-sampai..." atau "Setidaknya...".', 
+    level: 'N3',
+    examples: [
+      { japanese: '死ぬくらい疲れました。', romaji: 'Shinu kurai tsukaremashita.', meaning: 'Lelah sampai rasanya mau mati.' },
+      { japanese: '簡単な挨拶くらいなら、日本語で言えます。', romaji: 'Kantan na aisatsu kurai nara, Nihongo de iemasu.', meaning: 'Kalau sekadar salam sederhana, saya bisa mengucapkannya dalam bahasa Jepang.' },
+      { japanese: 'お茶ぐらい飲んでいってください。', romaji: 'Ocha gurai nonde itte kudasai.', meaning: 'Minumlah teh setidaknya (mampir sebentar).' }
+    ]
+  }
+];

@@ -1,0 +1,84 @@
+import { Question } from "../../types";
+
+export const latihan_partikel_19: Question[] = [
+  {
+    q: "ひらがな＿　かけない　こどもも　います。",
+    options: ["さえ", "こそ", "しか", "だけ"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Partikel 'sae' berarti 'bahkan'. 'Bahkan hiragana pun ada anak yang tidak bisa menulis'."
+  },
+  {
+    q: "わたしが　うまれたの＿　きょうとです。",
+    options: ["は", "が", "を", "に"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Kalimat terbelah (Cleft Sentence). 'No wa' digunakan untuk menekankan bagian kalimat. 'Tempat saya lahir ADALAH Kyoto'."
+  },
+  {
+    q: "せんせいが　おっしゃった＿　とおりです。",
+    options: ["", "の", "こと", "もの"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Pola '...toori desu' (sesuai dengan...) tidak memerlukan partikel setelah kata kerja bentuk lampau."
+  },
+  {
+    q: "この　ケーキは　おいしそう＿　みえます。",
+    options: ["に", "く", "だ", ""],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Saat 'sou' (kelihatannya) berfungsi sebagai adverbia (menerangkan 'miemasu'), ia menjadi 'oishisou ni'."
+  },
+  {
+    q: "がんばった＿、しっぱいしました。",
+    options: ["のに", "から", "ので", "し"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Padahal sudah berusaha keras, tapi gagal'. 'Noni' menunjukkan hasil yang tidak diharapkan."
+  },
+  {
+    q: "こんど＿　がんばります。",
+    options: ["こそ", "さえ", "しか", "だけ"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Partikel 'koso' digunakan untuk penekanan. 'Kali INILAH saya akan berusaha'."
+  },
+  {
+    q: "かねのため＿　はたらく。",
+    options: ["に", "と", "を", "で"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Pola 'no tame ni' berarti 'demi/untuk'."
+  },
+  {
+    q: "いそがしくて、ねる　じかん＿　ない。",
+    options: ["さえ", "こそ", "しか", "だけ"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Saking sibuknya, BAHKAN waktu tidur pun tidak ada'."
+  },
+  {
+    q: "あなた＿　しんじています。",
+    options: ["だけを", "しか", "さえ", "こそ"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Hanya kamu yang aku percaya'. 'Dake' bisa digabung dengan 'o'."
+  },
+  {
+    q: "こちら＿　よろしくおねがいします。",
+    options: ["こそ", "さえ", "しか", "だけ"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Frasa balasan 'Kochira koso' berarti 'Saya juga'."
+  }
+];

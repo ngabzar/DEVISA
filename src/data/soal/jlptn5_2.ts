@@ -1,0 +1,67 @@
+import { Question } from "../../types";
+
+export const jlptn5_2: Question[] = [
+  {
+    q: "本を　「読みます」。",
+    q_romaji: "hon o 'yomimasu'.",
+    options: ["よみます", "かきます", "ききます", "はなします"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "読みます (Yomimasu) berarti membaca."
+  },
+  {
+    q: "友達に　「会います」。",
+    q_romaji: "tomodachi ni 'aimasu'.",
+    options: ["かいます", "あいます", "はらいます", "もらいます"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "会います (Aimasu) berarti bertemu."
+  },
+  {
+    q: "電車に　「乗ります」。",
+    q_romaji: "densha ni 'norimasu'.",
+    options: ["のります", "おります", "はいります", "でます"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "乗ります (Norimasu) berarti naik (kendaraan)."
+  },
+  {
+    q: "ここは　「危ない」です。",
+    q_romaji: "koko wa 'abunai' desu.",
+    options: ["あぶない", "あんぜん", "きたない", "うるさい"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "危ない (Abunai) berarti berbahaya."
+  },
+  {
+    q: "道が　「広い」です。",
+    q_romaji: "michi ga 'hiroi' desu.",
+    options: ["せまい", "ひろい", "ちかい", "とおい"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "広い (Hiroi) berarti luas."
+  },
+  {
+    q: "「安い」　服を　買いました。",
+    q_romaji: "'yasui' fuku o kaimashita.",
+    options: ["たかい", "やすい", "ふるい", "あたらしい"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "安い (Yasui) berarti murah."
+  },
+  {
+    q: "外は　「暗い」ですね。",
+    q_romaji: "soto wa 'kurai' desu ne.",
+    options: ["あかるい", "くらい", "あおい", "くろい"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "暗い (Kurai) berarti gelap."
+  }
+];

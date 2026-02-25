@@ -1,0 +1,76 @@
+import { Kanji } from "../../../types";
+
+export const kanjin5_12: Kanji[] = [
+  { 
+    char: '上', 
+    level: 'N5', 
+    onyomi: ['JOU'], 
+    kunyomi: ['ue'], 
+    meaning: 'Atas', 
+    strokes: 3,
+    story: 'Sebuah garis vertikal berdiri di ATAS garis dasar horizontal.',
+    examples: [
+      { word: '上', reading: 'Ue', meaning: 'Atas' },
+      { word: '上手', reading: 'Jouzu', meaning: 'Mahir/Jago' },
+      { word: '上がる', reading: 'Agaru', meaning: 'Naik' }
+    ]
+  },
+  { 
+    char: '下', 
+    level: 'N5', 
+    onyomi: ['KA', 'GE'], 
+    kunyomi: ['shita'], 
+    meaning: 'Bawah', 
+    strokes: 3,
+    story: 'Sebuah garis vertikal menggantung di BAWAH garis dasar horizontal.',
+    examples: [
+      { word: '下', reading: 'Shita', meaning: 'Bawah' },
+      { word: '下手', reading: 'Heta', meaning: 'Tidak mahir' },
+      { word: '下がる', reading: 'Sagaru', meaning: 'Turun' },
+      { word: '地下鉄', reading: 'Chikatetsu', meaning: 'Kereta bawah tanah' }
+    ]
+  },
+  { 
+    char: '左', 
+    level: 'N5', 
+    onyomi: ['SA'], 
+    kunyomi: ['hidari'], 
+    meaning: 'Kiri', 
+    strokes: 5,
+    story: 'Tangan (ナ) kiri memegang mistar (工) untuk bekerja.',
+    examples: [
+      { word: '左', reading: 'Hidari', meaning: 'Kiri' },
+      { word: '左手', reading: 'Hidarite', meaning: 'Tangan kiri' },
+      { word: '左右', reading: 'Sayuu', meaning: 'Kiri dan Kanan' }
+    ]
+  },
+  { 
+    char: '右', 
+    level: 'N5', 
+    onyomi: ['YU', 'U'], 
+    kunyomi: ['migi'], 
+    meaning: 'Kanan', 
+    strokes: 5,
+    story: 'Tangan (ナ) kanan digunakan untuk makan ke mulut (口).',
+    examples: [
+      { word: '右', reading: 'Migi', meaning: 'Kanan' },
+      { word: '右手', reading: 'Migite', meaning: 'Tangan kanan' },
+      { word: '右側', reading: 'Migigawa', meaning: 'Sebelah kanan' }
+    ]
+  },
+  { 
+    char: '中', 
+    level: 'N5', 
+    onyomi: ['CHUU'], 
+    kunyomi: ['naka'], 
+    meaning: 'Dalam / Tengah', 
+    strokes: 4,
+    story: 'Garis vertikal menembus tepat di TENGAH kotak (mulut).',
+    examples: [
+      { word: '中', reading: 'Naka', meaning: 'Dalam' },
+      { word: '田中', reading: 'Tanaka', meaning: 'Tanaka (Nama orang)' },
+      { word: '中国', reading: 'Chuugoku', meaning: 'China' },
+      { word: '一日中', reading: 'Ichinichijuu', meaning: 'Seharian penuh' }
+    ]
+  },
+];

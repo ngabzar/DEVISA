@@ -1,0 +1,36 @@
+import { Question } from "../../types";
+
+export const jlptn4_15: Question[] = [
+  {
+    q: "この　仕事は　＿＿　＿＿　＿★＿　＿＿　終わりそうです。",
+    options: ["もう", "かかりそうですが", "時間か", "少し"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Urutan: Mou (1) sukoshi (4) jikan ga (3) kakarisou desu ga (2), owarisou desu. (Kelihatannya butuh sedikit waktu lagi, tapi sepertinya akan selesai). Bintang di posisi 3 adalah 'jikan ga'."
+  },
+  {
+    q: "彼は　＿＿　＿＿　＿★＿　＿＿　らしいです。",
+    options: ["そうです", "病気で", "会社を", "休んだ"],
+    correct: 2,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Urutan: Byouki de (2) kaisha o (3) yasunda (4) sou desu / rashii desu. (Kabarnya dia libur kerja karena sakit). Bintang di posisi 3 adalah 'yasunda'."
+  },
+  {
+    q: "先生に　＿＿　＿＿　＿★＿　＿＿　いただきました。",
+    options: ["て", "本を", "貸し", "て"],
+    correct: 1,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Urutan: Hon o (2) kashi (3) te (1) itadakimashita. (Saya dipinjami buku oleh guru). Bintang di posisi 3 adalah 'te'."
+  },
+  {
+    q: "この　ケーキは　＿＿　＿＿　＿★＿　＿＿　なりました。",
+    options: ["もっと", "ほう", "が", "いい"],
+    correct: 1,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Soal ini kurang pas. Mungkin maksudnya: 'Motto amakattara, ii noni'. Mari ganti soal. 'Motto amakereba, ii noni'. Atau 'Amaku shinai hou ga ii'. Ganti soal: ケーキは　＿＿　＿＿　＿★＿　＿＿　ほうが　いいです。Opsi: [あまり, ほうが, 食べない, 甘い 物は]. Urutan: Amai mono wa (4) amari (1) tabenai (3) hou ga (2) ii desu. Star di 3 = 'tabenai'."
+  }
+];

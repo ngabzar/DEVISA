@@ -1,0 +1,60 @@
+import { Question } from "../../types";
+
+export const jlptn5_12: Question[] = [
+  {
+    q: "きのうの　テストは　＿＿＿。",
+    options: ["やさしくなかったです", "やさしいでした", "やさしいじゃありません", "やさしくないでした"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Lampau negatif Kata Sifat-I: I -> kunakatta. Yasashii -> Yasashikunakatta desu."
+  },
+  {
+    q: "この　まちは　あまり　＿＿＿。",
+    options: ["にぎやかでは　ありません", "にぎやかです", "にぎやかでした", "にぎやかます"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Amari (tidak terlalu) diikuti bentuk negatif. Nigiyaka (Na-adj) -> Nigiyaka dewa arimasen."
+  },
+  {
+    q: "ミラーさんは　＿＿＿　ひとです。",
+    options: ["しんせつな", "しんせつ", "しんせつの", "しんせつだ"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kata Sifat-Na menerangkan kata benda harus menggunakan partikel 'na'. Shinsetsu-na hito."
+  },
+  {
+    q: "あの　えいがは　＿＿＿　おもしろくなかったです。",
+    options: ["ぜんぜん", "とても", "よく", "たくさん"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Zenzen (Sama sekali) diikuti bentuk negatif. Zenzen omoshirokunakatta (Sama sekali tidak menarik)."
+  },
+  {
+    q: "どんな　スポーツが　＿＿＿ですか。",
+    options: ["すき", "すきな", "すく", "すきます"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Suki adalah kata sifat-Na. Di akhir kalimat tidak perlu 'na'. Cukup 'Suki desu'."
+  },
+  {
+    q: "きのうは　＿＿＿　いそがしかったです。",
+    options: ["とても", "あまり", "ぜんぜん", "すこし"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Isogashikatta (lampau positif) bisa didahului 'totemo' (sangat)."
+  },
+  {
+    q: "せんしゅうは　あまり　＿＿＿。",
+    options: ["ひまじゃ　ありませんでした", "ひまでした", "ひまです", "ひまじゃありません"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Senshuu (minggu lalu) dan Amari (tidak terlalu) membutuhkan bentuk negatif lampau. Hima ja arimasen deshita."
+  }
+];

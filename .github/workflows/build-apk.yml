@@ -1,0 +1,150 @@
+name: Build Android APK — NihongoQuest TTS Native
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build APK with Native TTS
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      # PENTING: JANGAN pakai registry-url di sini!
+      # registry-url menyuntikkan _authToken=${NODE_AUTH_TOKEN} ke .npmrc
+      # Jika NODE_AUTH_TOKEN kosong → npm kirim "Authorization: Bearer " → 403 Forbidden
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Cache ~/.npm (download cache)
+      - name: Cache npm download cache
+        id: cache-npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            npm-${{ runner.os }}-
+
+      # Cache node_modules — skip install jika hit
+      - name: Cache node_modules
+        id: cache-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: modules-${{ runner.os }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            modules-${{ runner.os }}-
+
+      - name: Cache Gradle packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: gradle-
+
+      # Konfigurasi npm TANPA auth token — hapus .npmrc buatan setup-node jika ada
+      - name: Configure npm (no auth, public registry)
+        run: |
+          # Hapus .npmrc yang mungkin berisi _authToken kosong (dibuat setup-node)
+          rm -f ~/.npmrc
+          rm -f .npmrc
+
+          # Tulis .npmrc bersih: registry publik, tanpa auth, dengan retry
+          cat > ~/.npmrc << 'NPMRC_EOF'
+          registry=https://registry.npmjs.org
+          fetch-retries=5
+          fetch-retry-mintimeout=10000
+          fetch-retry-maxtimeout=60000
+          fetch-timeout=300000
+          NPMRC_EOF
+
+          echo "=== .npmrc aktif ==="
+          cat ~/.npmrc
+          echo "=== npm registry ==="
+          npm config get registry
+
+      # Install hanya jika node_modules belum di-cache
+      - name: Install npm dependencies
+        if: steps.cache-modules.outputs.cache-hit != 'true'
+        run: npm install --legacy-peer-deps
+
+      - name: Verify TTS plugin installed
+        run: |
+          if [ -d "node_modules/@capacitor-community/text-to-speech" ]; then
+            echo "✅ @capacitor-community/text-to-speech INSTALLED"
+            cat node_modules/@capacitor-community/text-to-speech/package.json | grep '"version"'
+          else
+            echo "❌ TTS plugin NOT found!"
+            exit 1
+          fi
+
+      - name: Build Angular app (production)
+        run: npm run build:ci
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
+
+      - name: Verifikasi build output
+        run: |
+          echo "=== Ukuran total dist ==="
+          du -sh dist/
+          echo "=== File JS bundle ==="
+          find dist/ -name "*.js" ! -path "*/data/*" | xargs du -sh 2>/dev/null | sort -h | tail -5
+
+      - name: Initialize Capacitor Android
+        run: npx cap add android || true
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+
+      - name: Capacitor sync (sync TTS plugin ke Android)
+        run: npx cap sync android
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+
+      - name: Verify TTS plugin di Android
+        run: |
+          echo "=== Cek plugin TTS di build.gradle ==="
+          grep -r "text-to-speech\|TextToSpeech\|capacitor-community" android/ --include="*.gradle" || echo "  (cek manual di android/)"
+          echo "=== Cek plugin di MainActivity ==="
+          cat android/app/src/main/java/com/nihongoquest/app/MainActivity.java 2>/dev/null || \
+          cat android/app/src/main/java/com/nihongoquest/app/MainActivity.kt 2>/dev/null || echo "  MainActivity not found"
+
+      - name: Make gradlew executable
+        run: chmod +x android/gradlew
+
+      - name: Build Debug APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon --stacktrace
+        env:
+          GRADLE_OPTS: "-Xmx4g -Xms512m -XX:MaxMetaspaceSize=512m"
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: NihongoQuest-NativeTTS-APK
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 30
+
+      - name: APK Info
+        run: |
+          ls -lh android/app/build/outputs/apk/debug/app-debug.apk
+          echo ""
+          echo "✅ APK berhasil dibuild dengan Native TTS!"
+          echo "✅ @capacitor-community/text-to-speech — Android TTS Engine"
+          echo "✅ Semua menu (Kana, Kanji, Vocab, Bunpou, Flashcard, Quiz) pakai native voice"
+          echo "✅ 100% offline — tidak butuh internet"

@@ -1,0 +1,56 @@
+import { Question } from "../../types";
+
+export const jlptn5_8: Question[] = [
+  {
+    q: "「たくさん」\n正しい文はどれですか。",
+    options: [
+      "きのうは　たくさん　ねました。",
+      "へやは　たくさん　きれいです。",
+      "この　もんだいは　たくさん　むずかしいです。",
+      "きょうは　たくさん　さむいです。"
+    ],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Takusan (Banyak) digunakan untuk kata kerja dan kata benda yang bisa dihitung, bukan untuk tingkat kata sifat."
+  },
+  {
+    q: "「ゆっくり」\n正しい文はどれですか。",
+    options: [
+      "もっと　ゆっくり　はなして　ください。",
+      "この　くるまは　ゆっくりです。",
+      "しけんは　ゆっくりでした。",
+      "ゆっくり　おなかが　すきました。"
+    ],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Yukkuri (Pelan-pelan) adalah kata keterangan yang menerangkan kata kerja (hanashite)."
+  },
+  {
+    q: "「こんど」\n正しい文はどれですか。",
+    options: [
+      "こんどの　にちようび、えいがを　みませんか。",
+      "こんど　きのう　ともだちに　あいました。",
+      "こんど　いま　ごはんを　たべます。",
+      "こんど　らいげつ　にほんへ　いきました。"
+    ],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kondo (Kali ini/Berikutnya) digunakan untuk waktu dekat di masa depan atau masa kini."
+  },
+  {
+    q: "「とる」\n正しい文はどれですか。",
+    options: [
+      "ここで　しゃしんを　とらないで　ください。",
+      "えきで　でんしゃを　とります。",
+      "あした　しごとを　とります。",
+      "テレビを　とって　ください。"
+    ],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Toru bisa berarti mengambil, tapi paling umum untuk 'mengambil foto' (shashin o toru)."
+  }
+];

@@ -1,0 +1,46 @@
+
+import { Particle } from "../../../types";
+
+export const partikeln3_1: Particle[] = [
+  { 
+    char: 'ばかり (Bakari)', 
+    usage: 'Melulu / Baru saja', 
+    explanation: '1. Menunjukkan aksi yang terus menerus atau hanya benda itu saja. 2. Baru saja selesai melakukan sesuatu (Ta-form + bakari).', 
+    example: '彼は遊んでばかりいる (Dia main melulu).', 
+    level: 'N3',
+    examples: [
+      { japanese: '食べたばかりですから、お腹がいっぱいです。', romaji: 'Tabeta bakari desu kara, onaka ga ippai desu.', meaning: 'Karena baru saja makan, saya kenyang.' },
+      { japanese: '娘はテレビを見てばかりいます。', romaji: 'Musume wa terebi o mite bakari imasu.', meaning: 'Anak perempuan saya nonton TV melulu.' },
+      { japanese: '文句ばかり言わないでください。', romaji: 'Monku bakari iwanaide kudasai.', meaning: 'Jangan mengeluh melulu.' },
+      { japanese: '日本に来たばかりで、まだ右も左もわかりません。', romaji: 'Nihon ni kita bakari de, mada migi mo hidari mo wakarimasen.', meaning: 'Karena baru saja datang ke Jepang, saya belum tahu apa-apa.' },
+      { japanese: 'この店は高いものばかり置いてある。', romaji: 'Kono mise wa takai mono bakari oite aru.', meaning: 'Toko ini hanya menyediakan barang-barang mahal saja.' }
+    ]
+  },
+  { 
+    char: 'だけ (Dake)', 
+    usage: 'Hanya / Tidak hanya... tapi juga', 
+    explanation: 'Sering digabung dalam pola "dake de naku" (tidak hanya... tetapi juga).', 
+    example: '英語だけでなく、日本語も話せます (Tidak hanya bahasa Inggris, bahasa Jepang pun bisa).', 
+    level: 'N3',
+    examples: [
+      { japanese: '彼は頭がいいだけでなく、親切だ。', romaji: 'Kare wa atama ga ii dake de naku, shinsetsu da.', meaning: 'Dia tidak hanya pintar, tapi juga ramah.' },
+      { japanese: '肉だけでなく、野菜も食べてください。', romaji: 'Niku dake de naku, yasai mo tabete kudasai.', meaning: 'Jangan cuma makan daging, makan sayur juga.' },
+      { japanese: 'この映画は大人だけでなく、子供も楽しめます。', romaji: 'Kono eiga wa otona dake de naku, kodomo mo tanoshimemasu.', meaning: 'Film ini tidak hanya bisa dinikmati orang dewasa, tapi juga anak-anak.' },
+      { japanese: 'できるだけ早く来てください。', romaji: 'Dekiru dake hayaku kite kudasai.', meaning: 'Datanglah secepat mungkin (sebisa mungkin).' },
+      { japanese: '好きなだけ食べてもいいです。', romaji: 'Suki na dake tabetemo ii desu.', meaning: 'Boleh makan sebanyak yang kamu suka.' }
+    ]
+  },
+  { 
+    char: 'きり (Kiri)', 
+    usage: 'Hanya / Sejak (tidak lagi)', 
+    explanation: '1. Hanya itu saja (limit). 2. Sejak terakhir kali terjadi, tidak terjadi lagi.', 
+    example: '二人きりで話したいです (Saya ingin bicara berdua saja).', 
+    level: 'N3',
+    examples: [
+      { japanese: '彼とは去年のパーティーで会ったきりだ。', romaji: 'Kare to wa kyonen no paati de atta kiri da.', meaning: 'Saya terakhir bertemu dengannya di pesta tahun lalu (dan belum bertemu lagi).' },
+      { japanese: '一度きりの人生を大切にしたい。', romaji: 'Ichido kiri no jinsei o taisetsu ni shitai.', meaning: 'Saya ingin menghargai hidup yang hanya sekali ini.' },
+      { japanese: 'お金はこれっきりです。', romaji: 'Okane wa korekkiri desu.', meaning: 'Uang saya tinggal ini saja.' },
+      { japanese: '彼女は部屋に入ったきり、出てこない。', romaji: 'Kanojo wa heya ni haitta kiri, dete konai.', meaning: 'Dia masuk kamar dan belum keluar-keluar lagi sejak itu.' }
+    ]
+  }
+];

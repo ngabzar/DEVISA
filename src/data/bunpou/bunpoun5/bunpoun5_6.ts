@@ -1,0 +1,39 @@
+import { Grammar } from "../../../types";
+
+export const bunpoun5_6: Grammar[] = [
+  { 
+    title: '~たいです (Tai desu)', 
+    formula: 'KK(Bentuk Masu - buang masu) + たいです', 
+    explanation: 'Menyatakan keinginan diri sendiri (Ingin...).', 
+    example: '日本へ行きたいです (Saya ingin pergi ke Jepang).', 
+    level: 'N5' 
+  },
+  { 
+    title: '~たくないです (Takunai desu)', 
+    formula: 'KK(Bentuk Tai - buang i) + くないです', 
+    explanation: 'Menyatakan ketidakinginan (Tidak ingin...).', 
+    example: '勉強したくないです (Saya tidak ingin belajar).', 
+    level: 'N5' 
+  },
+  { 
+    title: '~にいく/くる (Ni Iku/Kuru)', 
+    formula: 'Tempat + へ + KK(Bentuk Masu - buang masu) + に + 行きます/来ます', 
+    explanation: 'Pergi/Datang untuk tujuan melakukan sesuatu.', 
+    example: 'デパートへ服を買いに行きます (Pergi ke dept store untuk membeli baju).', 
+    level: 'N5' 
+  },
+  { 
+    title: '~ましょう (Mashou)', 
+    formula: 'KK(Bentuk Masu - buang masu) + ましょう', 
+    explanation: 'Ajakan melakukan sesuatu bersama (Ayo...).', 
+    example: '一緒に帰りましょう (Ayo pulang bersama).', 
+    level: 'N5' 
+  },
+  { 
+    title: '~ましょうか (Mashou ka)', 
+    formula: 'KK(Bentuk Masu - buang masu) + ましょうか', 
+    explanation: 'Menawarkan bantuan atau mengajak dengan sopan.', 
+    example: '窓を開けましょうか (Mau saya bukakan jendelanya?).', 
+    level: 'N5' 
+  }
+];

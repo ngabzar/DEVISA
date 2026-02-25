@@ -1,0 +1,77 @@
+import { Kanji } from "../../../types";
+
+export const kanjin5_1: Kanji[] = [
+  { 
+    char: '一', 
+    level: 'N5', 
+    onyomi: ['ICHI', 'ITSU'], 
+    kunyomi: ['hito(tsu)'], 
+    meaning: 'Satu', 
+    strokes: 1,
+    story: 'Satu jari telunjuk menunjuk ke samping.',
+    examples: [
+      { word: '一つ', reading: 'Hitotsu', meaning: 'Satu buah' },
+      { word: '一月', reading: 'Ichigatsu', meaning: 'Januari' },
+      { word: '一日', reading: 'Tsuitachi', meaning: 'Tanggal 1' },
+      { word: '一人', reading: 'Hitori', meaning: 'Satu orang' }
+    ]
+  },
+  { 
+    char: '二', 
+    level: 'N5', 
+    onyomi: ['NI'], 
+    kunyomi: ['futa(tsu)'], 
+    meaning: 'Dua', 
+    strokes: 2,
+    story: 'Dua garis lurus sejajar. Angka dua.',
+    examples: [
+      { word: '二つ', reading: 'Futatsu', meaning: 'Dua buah' },
+      { word: '二月', reading: 'Nigatsu', meaning: 'Februari' },
+      { word: '二日', reading: 'Futsuka', meaning: 'Tanggal 2' },
+      { word: '二人', reading: 'Futari', meaning: 'Dua orang' }
+    ]
+  },
+  { 
+    char: '三', 
+    level: 'N5', 
+    onyomi: ['SAN'], 
+    kunyomi: ['mit(tsu)'], 
+    meaning: 'Tiga', 
+    strokes: 3,
+    story: 'Tiga garis lurus. Menambahkan satu garis pada kanji Dua.',
+    examples: [
+      { word: '三つ', reading: 'Mittsu', meaning: 'Tiga buah' },
+      { word: '三月', reading: 'Sangatsu', meaning: 'Maret' },
+      { word: '三日', reading: 'Mikka', meaning: 'Tanggal 3' }
+    ]
+  },
+  { 
+    char: '四', 
+    level: 'N5', 
+    onyomi: ['SHI'], 
+    kunyomi: ['yon', 'yot(tsu)'], 
+    meaning: 'Empat', 
+    strokes: 5,
+    story: 'Mulut (口) dengan kaki manusia (儿) di dalamnya. Seperti tirai jendela persegi empat.',
+    examples: [
+      { word: '四つ', reading: 'Yottsu', meaning: 'Empat buah' },
+      { word: '四月', reading: 'Shigatsu', meaning: 'April' },
+      { word: '四日', reading: 'Yokka', meaning: 'Tanggal 4' }
+    ]
+  },
+  { 
+    char: '五', 
+    level: 'N5', 
+    onyomi: ['GO'], 
+    kunyomi: ['itsu(tsu)'], 
+    meaning: 'Lima', 
+    strokes: 4,
+    story: 'Berasal dari gulungan benang. Bentuknya juga menyerupai angka 5.',
+    examples: [
+      { word: '五つ', reading: 'Itsutsu', meaning: 'Lima buah' },
+      { word: '五月', reading: 'Gogatsu', meaning: 'Mei' },
+      { word: '五日', reading: 'Itsuka', meaning: 'Tanggal 5' },
+      { word: '五円', reading: 'Goen', meaning: '5 Yen' }
+    ]
+  },
+];

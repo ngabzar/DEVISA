@@ -1,0 +1,49 @@
+import { Kanji } from "../../../types";
+
+export const kanjin5_2: Kanji[] = [
+  { 
+    char: '六', level: 'N5', onyomi: ['ROKU'], kunyomi: ['mut(tsu)'], meaning: 'Enam', strokes: 4,
+    story: 'Orang (人) yang sedang melakukan jumping jack dengan kaki terbuka.',
+    examples: [
+        { word: '六つ', reading: 'Muttsu', meaning: 'Enam buah' },
+        { word: '六日', reading: 'Muika', meaning: 'Tanggal 6' },
+        { word: '六百', reading: 'Roppyaku', meaning: '600' }
+    ]
+  },
+  { 
+    char: '七', level: 'N5', onyomi: ['SHICHI'], kunyomi: ['nana(tsu)'], meaning: 'Tujuh', strokes: 2,
+    story: 'Angka 7 yang dibalik.',
+    examples: [
+        { word: '七つ', reading: 'Nanatsu', meaning: 'Tujuh buah' },
+        { word: '七日', reading: 'Nanoka', meaning: 'Tanggal 7' },
+        { word: '七月', reading: 'Shichigatsu', meaning: 'Juli' }
+    ]
+  },
+  { 
+    char: '八', level: 'N5', onyomi: ['HACHI'], kunyomi: ['yat(tsu)'], meaning: 'Delapan', strokes: 2,
+    story: 'Gunung berapi yang sempurna. Atau kumis pak raden.',
+    examples: [
+        { word: '八つ', reading: 'Yattsu', meaning: 'Delapan buah' },
+        { word: '八日', reading: 'Youka', meaning: 'Tanggal 8' },
+        { word: '八百屋', reading: 'Yaoya', meaning: 'Toko sayur' }
+    ]
+  },
+  { 
+    char: '九', level: 'N5', onyomi: ['KYUU', 'KU'], kunyomi: ['kokono(tsu)'], meaning: 'Sembilan', strokes: 2,
+    story: 'Orang yang sedang push-up, terlihat otot lengannya.',
+    examples: [
+        { word: '九つ', reading: 'Kokonotsu', meaning: 'Sembilan buah' },
+        { word: '九日', reading: 'Kokonoka', meaning: 'Tanggal 9' },
+        { word: '九月', reading: 'Kugatsu', meaning: 'September' }
+    ]
+  },
+  { 
+    char: '十', level: 'N5', onyomi: ['JUU'], kunyomi: ['to'], meaning: 'Sepuluh', strokes: 2,
+    story: 'Tanda tambah (+). Kumpulan dari semua angka.',
+    examples: [
+        { word: '十', reading: 'Tou', meaning: 'Sepuluh buah' },
+        { word: '十分', reading: 'Juppun', meaning: '10 Menit' },
+        { word: '十月', reading: 'Juugatsu', meaning: 'Oktober' }
+    ]
+  },
+];

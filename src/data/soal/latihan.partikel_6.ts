@@ -1,0 +1,84 @@
+import { Question } from "../../types";
+
+export const latihan_partikel_6: Question[] = [
+  {
+    q: "わたしは　きのう　ともだち＿　あいました。",
+    options: ["に", "と", "を", "で"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Kata kerja 'aimasu' (bertemu) menggunakan partikel 'ni' untuk menandai orang yang ditemui."
+  },
+  {
+    q: "この　バスは　えき＿　いきますか。",
+    options: ["まで", "から", "へ", "を"],
+    correct: 2,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Menanyakan apakah bus pergi KE stasiun. Partikel 'e' (へ) atau 'ni' bisa digunakan. 'Made' juga bisa tapi artinya 'sampai'."
+  },
+  {
+    q: "わたしは　はし＿　ごはんを　たべます。",
+    options: ["で", "を", "に", "と"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Partikel 'de' (で) digunakan untuk menunjukkan alat, dalam hal ini sumpit (hashi)."
+  },
+  {
+    q: "だれ＿　この　パンを　たべましたか。",
+    options: ["が", "は", "を", "に"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Saat kata tanya menjadi subjek kalimat, partikel 'ga' (が) yang digunakan."
+  },
+  {
+    q: "にく＿　さかな、どちらが　すきですか。",
+    options: ["と", "や", "か", "も"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Saat membandingkan dua hal (daging dan ikan), digunakan partikel 'to' (と)."
+  },
+  {
+    q: "せんしゅう、きょうと＿　ならへ　いきました。",
+    options: ["と", "や", "から", "まで"],
+    correct: 2,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Pergi DARI Kyoto KE Nara. 'Kyoto kara Nara e'."
+  },
+  {
+    q: "この　にもつを　わたし＿　へやに　はこんでください。",
+    options: ["の", "が", "を", "も"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Kamar SAYA. Kepemilikan menggunakan 'no'."
+  },
+  {
+    q: "きのうは　あめでした。きょう＿　あめです。",
+    options: ["も", "は", "が", "と"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Kemarin hujan. Hari ini JUGA hujan. Partikel 'mo'."
+  },
+  {
+    q: "まいあさ、なんじ＿　おきますか。",
+    options: ["に", "で", "を", "へ"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Menanyakan titik waktu spesifik, partikel 'ni'."
+  },
+  {
+    q: "うち＿　えきまで　あるいて　５ふんです。",
+    options: ["から", "まで", "に", "で"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "DARI rumah SAMPAI stasiun. 'Uchi kara eki made'."
+  }
+];

@@ -1,0 +1,60 @@
+import { Question } from "../../types";
+
+export const latihan_kalimat_2: Question[] = [
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Ini adalah buku.\"",
+    correctAnswers: ["kore wa hon desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Kore (Ini benda dekat pembicara)."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Itu adalah payung.\"",
+    correctAnswers: ["sore wa kasa desu", "are wa kasa desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Sore (Itu dekat lawan bicara) atau Are (Itu jauh dari keduanya)."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Buku ini menarik.\"",
+    correctAnswers: ["kono hon wa omoshiroi desu", "kono hon wa omoshiroi"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Kono + Benda. Omoshiroi = Menarik."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tas itu mahal.\"",
+    correctAnswers: ["sono kaban wa takai desu", "ano kaban wa takai desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Takai = Mahal/Tinggi."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Kamus ini milik saya.\"",
+    correctAnswers: ["kono jisho wa watashi no desu", "kore wa watashi no jisho desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Watashi no = Milik saya."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Indonesia:\n\"Are wa nan desu ka.\"",
+    correctAnswers: ["itu apa", "apakah itu", "benda itu apa"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Nan (Nani) = Apa."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Itu bukan majalah.\"",
+    correctAnswers: ["sore wa zasshi dewa arimasen", "are wa zasshi ja arimasen"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Zasshi = Majalah."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Mobil itu milik siapa?\"",
+    correctAnswers: ["sono kuruma wa dare no desu ka", "ano kuruma wa dare no desu ka"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Dare no = Milik siapa."
+  }
+];

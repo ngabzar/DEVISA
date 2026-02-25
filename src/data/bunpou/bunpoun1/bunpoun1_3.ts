@@ -1,0 +1,60 @@
+
+import { Grammar } from "../../../types";
+
+export const bunpoun1_3: Grammar[] = [
+  { 
+    title: '~手前 (Temae)', 
+    formula: 'KB + の + 手前 | KK(Bentuk Biasa) + 手前', 
+    explanation: 'Karena di depan... / Karena sudah terlanjur... maka harus (menjaga gengsi/tanggung jawab).', 
+    level: 'N1',
+    examples: [
+      { japanese: '子供の手前、泣くわけにはいかない。', romaji: 'Kodomo no temae, naku wake ni wa ikanai.', meaning: 'Karena di depan anak-anak, saya tidak boleh menangis (harus kuat).' },
+      { japanese: '「必ずやります」と言った手前、諦めることはできない。', romaji: '"Kanarazu yarimasu" to itta temae, akirameru koto wa dekinai.', meaning: 'Karena sudah terlanjur bilang "pasti akan melakukannya", saya tidak bisa menyerah.' },
+      { japanese: '世間体（せけんてい）の手前、派手な生活はできない。', romaji: 'Sekentei no temae, hade na seikatsu wa dekinai.', meaning: 'Demi pandangan masyarakat (jaga image), saya tidak bisa hidup bermewah-mewah.' }
+    ]
+  },
+  { 
+    title: '~とあって (To atte)', 
+    formula: 'KB / Kalimat Biasa + とあって', 
+    explanation: 'Karena kondisinya... (situasi khusus), maka wajar jika... (Formal).', 
+    level: 'N1',
+    examples: [
+      { japanese: '久しぶりの連休とあって、行楽地はどこも人でいっぱいだ。', romaji: 'Hisashiburi no renkyuu to atte, kourakuchi wa doko mo hito de ippai da.', meaning: 'Karena ini libur panjang yang jarang-jarang, tempat wisata di mana pun penuh orang.' },
+      { japanese: '社長の命令とあっては、従わないわけにはいかない。', romaji: 'Shachou no meirei to atte wa, shitagawanai wake ni wa ikanai.', meaning: 'Karena ini perintah presiden direktur, mau tidak mau harus patuh.' },
+      { japanese: '有名人の結婚式とあって、多くのマスコミが集まった。', romaji: 'Yuumeijin no kekkonshiki to atte, ooku no masukomi ga atsumatta.', meaning: 'Karena ini pernikahan selebriti, banyak media massa berkumpul.' }
+    ]
+  },
+  { 
+    title: '~とはいえ (To wa ie)', 
+    formula: 'Kalimat Biasa + とはいえ', 
+    explanation: 'Meskipun dikatakan bahwa... / Walaupun... (Kenyataannya tidak sepenuhnya begitu/masih ada masalah).', 
+    level: 'N1',
+    examples: [
+      { japanese: '春とはいえ、まだ寒い日が続いている。', romaji: 'Haru to wa ie, mada samui hi ga tsuzuite iru.', meaning: 'Meskipun dibilang sudah musim semi, hari-hari dingin masih berlanjut.' },
+      { japanese: '不況とはいえ、この会社は業績を伸ばしている。', romaji: 'Fukyou to wa ie, kono kaisha wa gyouseki o nobashite iru.', meaning: 'Meskipun dibilang sedang resesi, perusahaan ini kinerjanya meningkat.' },
+      { japanese: '静かだとはいえ、山の中の一軒家は寂しすぎる。', romaji: 'Shizuka da to wa ie, yama no naka no ikkenya wa sabishisugiru.', meaning: 'Meskipun tenang, rumah sendirian di tengah gunung itu terlalu kesepian.' }
+    ]
+  },
+  { 
+    title: '~とばかりに (To bakari ni)', 
+    formula: 'Kalimat/Frasa + とばかりに', 
+    explanation: 'Seolah-olah berkata... (Menunjukkan emosi/sikap lewat tindakan, tanpa bicara).', 
+    level: 'N1',
+    examples: [
+      { japanese: '彼は「出て行け」とばかりに、ドアを指差した。', romaji: 'Kare wa "dete ike" to bakari ni, doa o yubisashita.', meaning: 'Dia menunjuk pintu seolah-olah berkata "Keluar sana!".' },
+      { japanese: '彼女は聞こえないとばかりに、無視して歩き続けた。', romaji: 'Kanojo wa kikoenai to bakari ni, mushi shite arukitsuzuketa.', meaning: 'Dia terus berjalan mengabaikan, seolah-olah (bilang) tidak dengar.' },
+      { japanese: 'ここぞとばかりに、日頃の不満をぶちまけた。', romaji: 'Kokozo to bakari ni, higoro no fuman o buchimaketa.', meaning: 'Seolah-olah (bilang) "inilah saatnya", dia meluapkan ketidakpuasan sehari-harinya.' }
+    ]
+  },
+  { 
+    title: '~ないものでもない (Nai mono demo nai)', 
+    formula: 'KK(Nai) + ものでもない', 
+    explanation: 'Bukan tidak mungkin... / Bisa saja... (kalau kondisinya pas). Ungkapan ragu-ragu atau enggan mengakui sepenuhnya.', 
+    level: 'N1',
+    examples: [
+      { japanese: '条件によっては、引き受けないものでもない。', romaji: 'Jouken ni yotte wa, hikiukenai mono demo nai.', meaning: 'Tergantung syaratnya, bukan tidak mungkin saya terima (mungkin mau).' },
+      { japanese: '今すぐ行けば、間に合わないものでもない。', romaji: 'Ima sugu ikeba, maniawanai mono demo nai.', meaning: 'Kalau pergi sekarang, mungkin saja keburu (bukan tidak mungkin).' },
+      { japanese: 'この服、少し派手だが、着られないものでもない。', romaji: 'Kono fuku, sukoshi hade da ga, kirarenai mono demo nai.', meaning: 'Baju ini agak mencolok, tapi bukan berarti tidak bisa dipakai.' }
+    ]
+  }
+];

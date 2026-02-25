@@ -1,0 +1,25 @@
+import { Question } from "../../types";
+
+export const jlptn5_18: Question[] = [
+  {
+    q: "【読解】\nわたしの　ともだちの　キムさんは　かんこくじんです。\nキムさんは　スポーツが　じょうずです。\nまいしゅう　どようびに　テニスを　します。\nわたしは　テニスが　へたですから、みているだけです。\n\n質問：だれが　テニスを　しますか。",
+    options: ["わたし", "キムさん", "わたしと　キムさん", "だれもしません"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Teks menyatakan Kim-san bermain tenis, sedangkan 'saya' (watashi) hanya menonton karena tidak mahir (heta)."
+  },
+  {
+    q: "【読解】\nやまださんの　へやは　ひろくて　きれいです。\nでも、ちょっと　くらいです。たなかさんの　へやは　せまいですが、\nとても　あかるいです。\n\n質問：ただしいのは　どれですか。",
+    options: [
+      "やまださんの　へやは　せまくて　くらいです。",
+      "たなかさんの　へやは　ひろくて　あかるいです。",
+      "やまださんの　へやは　ひろいですが、くらいです。",
+      "たなかさんの　へやは　せまくて、くらいです。"
+    ],
+    correct: 2,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kamar Yamada luas tapi agak gelap. Kamar Tanaka sempit tapi terang. Pilihan 3 benar."
+  }
+];

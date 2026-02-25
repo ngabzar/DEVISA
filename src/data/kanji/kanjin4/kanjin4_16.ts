@@ -1,0 +1,13 @@
+import { Kanji } from "../../../types";
+
+export const kanjin4_16: Kanji[] = [
+  { char: '代', level: 'N4', onyomi: ['DAI'], kunyomi: ['ka(waru)'], meaning: 'Menggantikan / Era', strokes: 5 },
+  { char: '理', level: 'N4', onyomi: ['RI'], kunyomi: ['-'], meaning: 'Alasan / Logika', strokes: 11 },
+  { char: '別', level: 'N4', onyomi: ['BETSU'], kunyomi: ['waka(reru)'], meaning: 'Berpisah', strokes: 7 },
+  { char: '特', level: 'N4', onyomi: ['TOKU'], kunyomi: ['-'], meaning: 'Spesial', strokes: 10 },
+  { char: '注', level: 'N4', onyomi: ['CHUU'], kunyomi: ['soso(gu)'], meaning: 'Menuang / Catatan', strokes: 8 },
+  { char: '意', level: 'N4', onyomi: ['I'], kunyomi: ['-'], meaning: 'Pikiran / Makna', strokes: 13 },
+  { char: '発', level: 'N4', onyomi: ['HATSU'], kunyomi: ['-'], meaning: 'Berangkat / Terbit', strokes: 9 },
+  { char: '産', level: 'N4', onyomi: ['SAN'], kunyomi: ['u(mu)'], meaning: 'Produksi / Melahirkan', strokes: 11 },
+  { char: '業', level: 'N4', onyomi: ['GYOU'], kunyomi: ['waza'], meaning: 'Bisnis / Karma', strokes: 13 },
+];

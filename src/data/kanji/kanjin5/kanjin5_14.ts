@@ -1,0 +1,50 @@
+import { Kanji } from "../../../types";
+
+export const kanjin5_14: Kanji[] = [
+  { 
+    char: '東', level: 'N5', onyomi: ['TOU'], kunyomi: ['higashi'], meaning: 'Timur', strokes: 8,
+    story: 'Matahari (日) terbit di balik pohon (木) di TIMUR.',
+    examples: [
+      { word: '東', reading: 'Higashi', meaning: 'Timur' },
+      { word: '東京', reading: 'Toukyou', meaning: 'Tokyo' },
+      { word: '東口', reading: 'Higashiguchi', meaning: 'Pintu timur' }
+    ]
+  },
+  { 
+    char: '西', level: 'N5', onyomi: ['SEI', 'SAI'], kunyomi: ['nishi'], meaning: 'Barat', strokes: 6,
+    story: 'Burung-burung kembali ke sarang saat matahari terbenam di BARAT.',
+    examples: [
+      { word: '西', reading: 'Nishi', meaning: 'Barat' },
+      { word: '西口', reading: 'Nishiguchi', meaning: 'Pintu barat' },
+      { word: '関西', reading: 'Kansai', meaning: 'Wilayah Kansai' }
+    ]
+  },
+  { 
+    char: '南', level: 'N5', onyomi: ['NAN'], kunyomi: ['minami'], meaning: 'Selatan', strokes: 9,
+    story: 'Tanaman tumbuh subur di SELATAN yang hangat. Ada simbol Yen di dalam batas.',
+    examples: [
+      { word: '南', reading: 'Minami', meaning: 'Selatan' },
+      { word: '南口', reading: 'Minamiguchi', meaning: 'Pintu selatan' },
+      { word: '東南アジア', reading: 'Tounanajia', meaning: 'Asia Tenggara' }
+    ]
+  },
+  { 
+    char: '北', level: 'N5', onyomi: ['HOKU'], kunyomi: ['kita'], meaning: 'Utara', strokes: 5,
+    story: 'Dua orang duduk saling membelakangi karena dinginnya UTARA.',
+    examples: [
+      { word: '北', reading: 'Kita', meaning: 'Utara' },
+      { word: '北口', reading: 'Kitaguchi', meaning: 'Pintu utara' },
+      { word: '北海道', reading: 'Hokkaidou', meaning: 'Hokkaido' }
+    ]
+  },
+  { 
+    char: '今', level: 'N5', onyomi: ['KON', 'KIN'], kunyomi: ['ima'], meaning: 'Sekarang', strokes: 4,
+    story: 'Di bawah atap (ane) ada jam yang menunjukkan waktu SEKARANG.',
+    examples: [
+      { word: '今', reading: 'Ima', meaning: 'Sekarang' },
+      { word: '今日', reading: 'Kyou', meaning: 'Hari ini' },
+      { word: '今月', reading: 'Kongetsu', meaning: 'Bulan ini' },
+      { word: '今年', reading: 'Kotoshi', meaning: 'Tahun ini' }
+    ]
+  },
+];

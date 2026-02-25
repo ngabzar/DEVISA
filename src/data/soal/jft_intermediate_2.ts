@@ -1,0 +1,94 @@
+import { Question } from "../../types";
+
+export const jft_intermediate_2: Question[] = [
+  {
+    q: "今日は「有給休暇」を取ります。",
+    q_romaji: "kyou wa 'yuukyuu kyuuka' o torimasu.",
+    options: ["ゆうきゅうきゅうか", "ゆうきゅうやすみ", "ゆうきゅうかい", "ゆきゅうきゅうか"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: ゆうきゅうきゅうか (Yuukyuu Kyuuka)**\n\n**Konteks JFT Hak Karyawan:**\n- **有給休暇 (Yuukyuu Kyuuka):** Cuti berbayar. Hak dasar pekerja di Jepang yang wajib dipahami."
+  },
+  {
+    q: "作業中は「保護具」を必ず着用してください。",
+    q_romaji: "sagyou chuu wa 'hogugu' o kanarazu chakuyou shite kudasai.",
+    options: ["ほごぐ", "ほごぎ", "ほごそう", "ほんごぐ"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: ほごぐ (Hogugu)**\n\n**Konteks JFT Keselamatan Kerja:**\n- **保護具 (Hogugu):** Alat Pelindung Diri (APD). Kosakata wajib di lingkungan pabrik/konstruksi."
+  },
+  {
+    q: "今月の「残業代」はいつ支払われますか。",
+    q_romaji: "kongetsu no 'zangyoudai' wa itsu shihawaremasu ka.",
+    options: ["ざんぎょうだい", "ざんぎょうひ", "のこりぎょうだい", "ざいきょうだい"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: ざんぎょうだい (Zangyoudai)**\n\n**Konteks JFT Penggajian:**\n- **残業代 (Zangyoudai):** Upah lembur / Bayaran overtime.\n- **残業 (Zangyou):** Lembur."
+  },
+  {
+    q: "材料が「不足」しているので、補充をお願いします。",
+    q_romaji: "zairyou ga 'fusoku' shite iru node, hojuu o onegai shimasu.",
+    options: ["ふそく", "ふぞく", "ぶそく", "ぶぞく"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: ふそく (Fusoku)**\n\n**Konteks JFT Manajemen Stok:**\n- **不足 (Fusoku):** Kekurangan / Kurang (stok/bahan).\n- **補充 (Hojuu):** Pengisian ulang / Tambah stok."
+  },
+  {
+    q: "作業の「手順」を確認してから始めてください。",
+    q_romaji: "sagyou no 'tejun' o kakunin shite kara hajimete kudasai.",
+    options: ["てじゅん", "てくだり", "てすじ", "てならい"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: てじゅん (Tejun)**\n\n**Konteks JFT Prosedur Kerja:**\n- **手順 (Tejun):** Prosedur / Langkah-langkah kerja. Sangat penting di lingkungan pabrik dan industri."
+  },
+  {
+    q: "社員証を「______」忘れたので、入れませんでした。",
+    q_romaji: "shain shou o '______' wasureta node, hairemasen deshita.",
+    options: ["持ってくるのを", "もってきて", "もちながら", "もってこなくて"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: 持ってくるのを (Motte kuru no o)**\n\n**Analisis Tata Bahasa:**\n- **〜のを忘れる:** Lupa untuk melakukan sesuatu.\n- Pola: 動詞辞書形 + のを忘れる = Lupa untuk [melakukan] ~"
+  },
+  {
+    q: "品物に「欠陥」があった場合、すぐに報告してください。",
+    q_romaji: "shinamono ni 'kekkan' ga atta baai, sugu ni houkoku shite kudasai.",
+    options: ["けっかん", "けつかん", "かっかん", "かくかん"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: けっかん (Kekkan)**\n\n**Konteks JFT Quality Control:**\n- **欠陥 (Kekkan):** Cacat / Defect (pada produk). Kosakata kunci dalam kontrol kualitas produksi."
+  },
+  {
+    q: "【Di Tempat Kerja】今日は「______」に入ってください。",
+    q_romaji: "kyou wa '______' ni haitte kudasai.",
+    options: ["Aライン", "Aシフト", "A班", "Aチーム"],
+    correct: 2,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: A班 (A-han)**\n\n**Konteks JFT Penugasan:**\n- **班 (Han):** Tim/Kelompok kerja di pabrik (biasanya A班、B班、C班).\n- Kosakata ini sangat sering digunakan di lingkungan pabrik Jepang."
+  },
+  {
+    q: "今日の作業は「予定通り」終わりました。",
+    q_romaji: "kyou no sagyou wa 'yotei doori' owarimashita.",
+    options: ["よていどおり", "よていつうり", "よていたどり", "よていなり"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: よていどおり (Yotei Doori)**\n\n**Analisis Kata:**\n- **予定通り (Yotei Doori):** Sesuai rencana / Tepat waktu sesuai jadwal.\n- **〜通り (~doori):** Sesuai dengan ~."
+  },
+  {
+    q: "機械のスイッチを「切る」前に、必ず確認してください。",
+    q_romaji: "kikai no suicchi o 'kiru' mae ni, kanarazu kakunin shite kudasai.",
+    options: ["きる", "とめる", "けす", "しめる"],
+    correct: 0,
+    type: "JFT_INTERMEDIATE",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: きる (Kiru)**\n\n**Konteks JFT Keselamatan:**\n- **スイッチを切る (Suicchi o kiru):** Mematikan/Menonaktifkan saklar. Dalam konteks mesin, 切る digunakan untuk mematikan/memutus aliran."
+  }
+];

@@ -1,0 +1,60 @@
+import { Question } from "../../types";
+
+export const latihan_kalimat_11: Question[] = [
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Saya ingin mobil.\"",
+    correctAnswers: ["kuruma ga hoshii desu", "watashi wa kuruma ga hoshii desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Ingin benda: Benda + ga + Hoshii desu."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Ingin makan sushi.\"",
+    correctAnswers: ["sushi ga tabetai desu", "sushi o tabetai desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Ingin melakukan: KK(Masu-stem) + tai desu. Tabemasu -> Tabetai."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Ingin pergi ke Jepang.\"",
+    correctAnswers: ["nihon e ikitai desu", "nihon ni ikitai desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Ikimasu -> Ikitai."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tidak ingin minum bir.\"",
+    correctAnswers: ["biiru wa nomitakunai desu", "biiru o nomitakunai desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Tai (seperti KS-I) -> Takunai."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Indonesia:\n\"Nani ga shitai desu ka.\"",
+    correctAnswers: ["apa yang ingin dilakukan", "ingin melakukan apa", "mau ngapain"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Suru -> Shitai (Ingin melakukan)."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Ingin pulang.\"",
+    correctAnswers: ["kaeritai desu", "uchi e kaeritai desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Kaerimasu -> Kaeritai."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tidak ingin belajar.\"",
+    correctAnswers: ["benkyou shitakunai desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Benkyou shimasu -> Benkyou shitai -> Benkyou shitakunai."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Ingin uang.\"",
+    correctAnswers: ["okane ga hoshii desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Okane = Uang. Hoshii = Ingin (Benda)."
+  }
+];

@@ -1,0 +1,94 @@
+import { Question } from "../../types";
+
+export const jlptn1_2: Question[] = [
+  {
+    q: "彼の発言は「看過」できない問題を含んでいる。",
+    q_romaji: "kare no hatsugen wa 'kanka' dekinai mondai o fukunde iru.",
+    options: ["かんか", "かんが", "みすごし", "みお"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: かんか (Kanka)**\n\n**Analisis Kata:**\n- **看過 (Kanka):** Membiarkan begitu saja / Mengabaikan (padahal seharusnya ditindaklanjuti).\n- **看過できない:** Tidak bisa diabaikan / Tidak bisa didiamkan."
+  },
+  {
+    q: "彼は自分の失敗を「顧みず」、また同じ過ちを犯した。",
+    q_romaji: "kare wa jibun no shippai o 'kaerimiazu', mata onaji ayamachi o okashita.",
+    options: ["かえりみず", "かえりかず", "ふりかえらず", "みかえらず"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: かえりみず (Kaerimiazu)**\n\n**Analisis Kata:**\n- **顧みる (Kaerimiru):** Merefleksikan / Menengok ke belakang / Mempertimbangkan.\n- **顧みず:** Tanpa merefleksikan / Tanpa mempertimbangkan."
+  },
+  {
+    q: "長年の努力が「実を結んだ」。",
+    q_romaji: "naganen no doryoku ga 'mi o musunda'.",
+    options: ["みをむすんだ", "かをむすんだ", "はなをむすんだ", "えだをむすんだ"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: みをむすんだ (Mi o musunda)**\n\n**Analisis Idiom N1:**\n- **実を結ぶ (Mi o musubu):** Membuahkan hasil / Berbuah (dari usaha yang panjang). Idiom penting N1."
+  },
+  {
+    q: "社会の「矛盾」を鋭く批判した作品だ。",
+    q_romaji: "shakai no 'mujun' o surudoku hihan shita sakuhin da.",
+    options: ["むじゅん", "もじゅん", "むじん", "もじん"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: むじゅん (Mujun)**\n\n**Analisis Kata:**\n- **矛盾 (Mujun):** Kontradiksi / Inkonsistensi. Berasal dari cerita tentang tombak (矛) dan perisai (盾)."
+  },
+  {
+    q: "プロジェクトの成功は、チームの「結束」「______」ものだ。",
+    q_romaji: "purojekuto no seikou wa, chiimu no 'kessoku' '______' mono da.",
+    options: ["あってこそ", "によってこそ", "があれば", "さえあれば"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: あってこそ (Atte koso)**\n\n**Analisis Tata Bahasa N1:**\n- **〜あってこそ (~atte koso):** Justru karena ada ~ / Hanya dengan adanya ~. Menekankan bahwa sesuatu adalah syarat mutlak yang tidak bisa digantikan."
+  },
+  {
+    q: "彼女は苦境に立たされても「泰然自若」としていた。",
+    q_romaji: "kanojo wa kukyou ni tatasarete mo 'taizenjijakku' to shite ita.",
+    options: ["たいぜんじじゃく", "たいぜんじやく", "たいねんじじゃく", "だいぜんじじゃく"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: たいぜんじじゃく (Taizenjijakku)**\n\n**Analisis 四字熟語 (Yojijukugo):**\n- **泰然自若 (Taizenjijakku):** Tetap tenang dan tidak goyah dalam menghadapi situasi sulit. Sifat yang sangat dihargai dalam budaya Jepang."
+  },
+  {
+    q: "法律に「抵触」する可能性がある。",
+    q_romaji: "houritsu ni 'teishoku' suru kanousei ga aru.",
+    options: ["ていしょく", "ていそく", "たいしょく", "たいそく"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: ていしょく (Teishoku)**\n\n**Analisis Kata:**\n- **抵触 (Teishoku):** Bertentangan dengan / Melanggar (hukum/aturan).\n- **抵触する:** Sering digunakan dalam konteks hukum dan peraturan."
+  },
+  {
+    q: "彼は勝利を確信していた「______」、土壇場で逆転された。",
+    q_romaji: "kare wa shouri o kakushin shite ita '______', dotanba de gyakuten sareta.",
+    options: ["にもかかわらず", "ものの", "にしては", "くせに"],
+    correct: 1,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: ものの (Monono)**\n\n**Analisis Tata Bahasa N1:**\n- **〜ものの (~monono):** Meskipun... (namun kenyataannya berbeda). Digunakan ketika harapan/ekspektasi tidak terpenuhi. Lebih sastrawi dari にもかかわらず."
+  },
+  {
+    q: "その法案は議会で「否決」された。",
+    q_romaji: "sono houan wa gikai de 'hiketsu' sareta.",
+    options: ["ひけつ", "ひかつ", "いけつ", "いかつ"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: ひけつ (Hiketsu)**\n\n**Analisis Kata:**\n- **否決 (Hiketsu):** Ditolak / Digagalkan (dalam voting/sidang).\n- Lawan kata: **可決 (Kaketsu)** = Disetujui."
+  },
+  {
+    q: "彼は「一念発起」して、ゼロから事業を始めた。",
+    q_romaji: "kare wa 'ichinen hokki' shite, zero kara jigyou o hajimeta.",
+    options: ["いちねんほっき", "いちねんはっき", "いつねんほっき", "いつねんはっき"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: いちねんほっき (Ichinen Hokki)**\n\n**Analisis 四字熟語:**\n- **一念発起 (Ichinen Hokki):** Bertekad bulat / Membulatkan tekad untuk memulai sesuatu. Sering digunakan untuk perubahan hidup yang drastis."
+  }
+];

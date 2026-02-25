@@ -1,0 +1,32 @@
+import { Particle } from "../../../types";
+
+export const partikeln5_5: Particle[] = [
+  { 
+    char: 'ね (Ne)', 
+    usage: 'Persetujuan / Konfirmasi', 
+    explanation: 'Digunakan di akhir kalimat untuk meminta persetujuan lawan bicara (Ya kan?) atau memastikan sesuatu.', 
+    example: 'いい天気ですね (Cuaca bagus ya).', 
+    level: 'N5',
+    examples: [
+      { japanese: '今日は暑いですね。', romaji: 'Kyou wa atsui desu ne.', meaning: 'Hari ini panas ya.' },
+      { japanese: 'きれいな花ですね。', romaji: 'Kirei na hana desu ne.', meaning: 'Bunga yang indah ya.' },
+      { japanese: '日本語は難しいですね。', romaji: 'Nihongo wa muzukashii desu ne.', meaning: 'Bahasa Jepang sulit ya.' },
+      { japanese: '明日ですよ(ね)。', romaji: 'Ashita desu yo ne.', meaning: 'Besok kan ya?' },
+      { japanese: 'そうですね。', romaji: 'Sou desu ne.', meaning: 'Benar juga ya / Begitu ya.' }
+    ]
+  },
+  { 
+    char: 'よ (Yo)', 
+    usage: 'Informasi Baru / Penekanan', 
+    explanation: 'Digunakan di akhir kalimat untuk memberitahu informasi yang lawan bicara belum tahu, atau menekankan pernyataan.', 
+    example: 'あそこに犬がいますよ (Di sana ada anjing lho!).', 
+    level: 'N5',
+    examples: [
+      { japanese: 'この映画は面白いですよ。', romaji: 'Kono eiga wa omoshiroi desu yo.', meaning: 'Film ini menarik lho.' },
+      { japanese: '明日は休みですよ。', romaji: 'Ashita wa yasumi desu yo.', meaning: 'Besok libur lho (memberitahu).' },
+      { japanese: '違いますよ。', romaji: 'Chigaimasu yo.', meaning: 'Bukan begitu lho / Salah lho.' },
+      { japanese: '塩じゃなくて、砂糖ですよ。', romaji: 'Shio ja nakute, satou desu yo.', meaning: 'Bukan garam, tapi gula lho.' },
+      { japanese: '行きましょうよ。', romaji: 'Ikimashou yo.', meaning: 'Ayo pergi dong (ajakan kuat).' }
+    ]
+  }
+];

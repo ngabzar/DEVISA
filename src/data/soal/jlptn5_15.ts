@@ -1,0 +1,44 @@
+import { Question } from "../../types";
+
+export const jlptn5_15: Question[] = [
+  {
+    q: "A:「しゅくだいは　もう　＿＿　＿＿　＿★＿　＿＿　か。」\nB:「はい、もう　やりました。」",
+    options: ["か", "ました", "やり", "です"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: yari (3) mashi (2) ta (implied) desu (4) ka (1). (Apakah PR sudah dikerjakan?). Bintang di posisi 3 adalah 'ta desu'."
+  },
+  {
+    q: "わたしは　＿＿　＿＿　＿★＿　＿＿　たいです。",
+    options: ["なります", "しょうらい", "いしゃに", "なり"],
+    correct: 3,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Shourai (2) isha ni (3) nari (4) tai desu. (Di masa depan saya ingin menjadi dokter). Bintang di posisi 3 adalah 'nari' (4/D)."
+  },
+  {
+    q: "この　へやは　＿＿　＿＿　＿★＿　＿＿　ください。",
+    options: ["から", "さむい", "しめて", "まどを"],
+    correct: 3,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Samui (2) desu (implied) kara (1) mado o (4) shimete (3) kudasai. (Karena dingin, tolong tutup jendela). Bintang di posisi 3 adalah 'mado o' (4/D)."
+  },
+  {
+    q: "きのう　かった　パンは　＿＿　＿＿　＿★＿　＿＿　でした。",
+    options: ["あまり", "よく", "おいしく", "ありません"],
+    correct: 2,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Amari (1) oishiku (3) arimasen (4) deshita. (Roti yang dibeli kemarin tidak begitu enak). Bintang di posisi 3 adalah 'arimasen' (4/D)."
+  },
+  {
+    q: "すみません、＿＿　＿＿　＿★＿　＿＿　くださいませんか。",
+    options: ["かして", "ペンを", "いただけ", "ちょっと"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Chotto (4) pen o (2) kashite (1) itadakemasen (3) ka. (Maaf, bisakah Anda meminjamkan pulpen sebentar?). Bintang di posisi 3 adalah 'itadakemasen' (3/C)."
+  }
+];

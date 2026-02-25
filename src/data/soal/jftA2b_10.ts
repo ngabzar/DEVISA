@@ -1,0 +1,44 @@
+import { Question } from "../../types";
+
+export const jftA2b_10: Question[] = [
+  {
+    q: "「どうしたんですか。顔色が　悪いですよ。」\n「実は、＿＿＿。」",
+    options: ["頭が　痛いんです", "頭が　痛いです", "頭が　痛いですか", "頭が　痛い"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Menjelaskan kondisi/alasan dengan 'N-desu' (Itain desu)."
+  },
+  {
+    q: "「この　料理は　どうですか。」\n「とても　＿＿＿。」",
+    options: ["おいしいです", "おいしくないです", "きれいです", "元気です"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Menanyakan pendapat rasa. 'Oishii' (Enak)."
+  },
+  {
+    q: "「昨日の　映画は　＿＿＿。」\n「ええ、とても　面白かったです。」",
+    options: ["どうでしたか", "どうですか", "何でしたか", "どれでしたか"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Menanyakan kesan lampau: 'Dou deshita ka'."
+  },
+  {
+    q: "「日本語が　＿＿＿　なりましたね。」",
+    options: ["上手に", "上手", "上手な", "上手く"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Perubahan sifat (Na-adj): Ni naru. (Jouzu ni narimashita)."
+  },
+  {
+    q: "「雨が　降って　＿＿＿。」",
+    options: ["きました", "いきました", "みました", "いました"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Perubahan keadaan (Mulai turun hujan): 'Futte kimashita'."
+  }
+];

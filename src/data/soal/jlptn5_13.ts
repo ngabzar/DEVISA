@@ -1,0 +1,44 @@
+import { Question } from "../../types";
+
+export const jlptn5_13: Question[] = [
+  {
+    q: "わたしは　＿＿　＿＿　＿★＿　＿＿　たいです。",
+    options: ["にほんへ", "ともだちと", "いっしょに", "りょこうし"],
+    correct: 3,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Tomodachi to (2) issho ni (3) Nihon e (1) ryokoushi (4) tai desu. (Ingin travel ke Jepang bersama teman). Bintang di posisi 3 adalah 'ryokoushi' (4/D)."
+  },
+  {
+    q: "これは　＿＿　＿＿　＿★＿　＿＿　です。",
+    options: ["きのう", "で", "デパート", "かった　かばん"],
+    correct: 3,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Kinou (1) depaato (3) de (2) katta kaban (4) desu. (Ini adalah tas yang kemarin dibeli di dept store). Bintang di posisi 3 adalah 'katta kaban' (4/D)."
+  },
+  {
+    q: "としょかんで　＿＿　＿＿　＿★＿　＿＿　いけません。",
+    options: ["は", "を", "たべて", "ごはん"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Gohan (4) o (2) tabete (3) wa (1) ikemasen. (Tidak boleh makan nasi). Bintang di posisi 3 adalah 'wa' (1/A)."
+  },
+  {
+    q: "わたしの　＿＿　＿＿　＿★＿　＿＿　です。",
+    options: ["に　すんでいます", "いもうとは", "ちかい", "えきから"],
+    correct: 2,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Imouto wa (2) eki kara (4) chikai (3) tokoro (implied) ni sunde imasu (1). (Adik perempuan saya tinggal di tempat yang dekat dari stasiun). Bintang di posisi 3 adalah 'chikai' (3/C)."
+  },
+  {
+    q: "あした　＿＿　＿＿　＿★＿　＿＿　か。",
+    options: ["どこかへ", "いきませんか", "あそびに", "いっしょに"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Urutan: Issho ni (4) asobi ni (3) dokoka e (1) ikimasen (2) ka. (Maukah pergi ke suatu tempat untuk bermain bersama?). Bintang di posisi 3 adalah 'dokoka e' (1/A)."
+  }
+];

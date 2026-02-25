@@ -1,0 +1,42 @@
+
+import { Particle } from "../../../types";
+
+export const partikeln3_4: Particle[] = [
+  { 
+    char: 'うちに (Uchi ni)', 
+    usage: 'Selagi / Mumpung / Sebelum', 
+    explanation: 'Melakukan sesuatu selagi keadaan masih berlangsung/belum berubah.', 
+    example: '若いうちに勉強しなさい (Belajarlah selagi muda).', 
+    level: 'N3',
+    examples: [
+      { japanese: '雨が降らないうちに帰りましょう。', romaji: 'Ame ga furanai uchi ni kaerimashou.', meaning: 'Ayo pulang selagi hujan belum turun.' },
+      { japanese: '日本にいるうちに富士山に登りたい。', romaji: 'Nihon ni iru uchi ni Fujisan ni noboritai.', meaning: 'Selagi ada di Jepang, saya ingin mendaki G. Fuji.' },
+      { japanese: 'アイスクリームが溶けないうちに食べてください。', romaji: 'Aisukuriimu ga tokenai uchi ni tabete kudasai.', meaning: 'Makanlah es krimnya selagi belum meleleh.' },
+      { japanese: '知らないうちに寝てしまった。', romaji: 'Shiranai uchi ni nete shimatta.', meaning: 'Tanpa sadar (selagi tidak tahu) saya tertidur.' }
+    ]
+  },
+  { 
+    char: 'たびに (Tabi ni)', 
+    usage: 'Setiap kali', 
+    explanation: '[Rumus: KK(Kamus) / KB+の + たびに] Setiap kali melakukan A, selalu terjadi B.', 
+    example: 'この曲を聞くたびに、故郷を思い出す (Setiap mendengar lagu ini, saya teringat kampung halaman).', 
+    level: 'N3',
+    examples: [
+      { japanese: '会うたびに、彼は大きくなっている。', romaji: 'Au tabi ni, kare wa ookiku natte iru.', meaning: 'Setiap kali bertemu, dia bertambah besar.' },
+      { japanese: '買い物のたびに、袋をもらう。', romaji: 'Kaimono no tabi ni, fukuro o morau.', meaning: 'Setiap kali belanja, saya mendapat kantong.' },
+      { japanese: '父は出張のたびに、お土産を買ってきてくれる。', romaji: 'Chichi wa shucchou no tabi ni, omiyage o katte kite kureru.', meaning: 'Ayah selalu membelikan oleh-oleh setiap kali dinas luar kota.' }
+    ]
+  },
+  { 
+    char: 'さいに (Sai ni)', 
+    usage: 'Saat / Ketika (Formal)', 
+    explanation: '[Rumus: KK(Kamus/Ta) / KB+の + 際に] Digunakan dalam situasi formal untuk menyatakan "pada saat".', 
+    example: 'お困りの際は、ご連絡ください (Jika Anda kesulitan, silakan hubungi kami).', 
+    level: 'N3',
+    examples: [
+      { japanese: 'ご来店の際は、このカードをお持ちください。', romaji: 'Goraiten no sai wa, kono kaado o omochi kudasai.', meaning: 'Saat berkunjung ke toko, harap bawa kartu ini.' },
+      { japanese: '受験の際に、写真が必要です。', romaji: 'Juken no sai ni, shashin ga hitsuyou desu.', meaning: 'Saat ujian, diperlukan foto.' },
+      { japanese: 'パスポートを申請する際に、書類を書きました。', romaji: 'Pasupo-to o shinsei suru sai ni, shorui o kakimashita.', meaning: 'Saya mengisi dokumen pada saat mengajukan paspor.' }
+    ]
+  }
+];

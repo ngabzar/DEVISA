@@ -1,0 +1,61 @@
+
+import { Grammar } from "../../../types";
+
+export const bunpoun3_1: Grammar[] = [
+  { 
+    title: '~うちに (Uchi ni)', 
+    formula: 'KK(Kamus/Nai/Te-iru) + うちに | KS-i/Na + うちに | KB + のうちに', 
+    explanation: 'Melakukan sesuatu selagi keadaan masih berlangsung/belum berubah. (Mumpung...)', 
+    level: 'N3',
+    examples: [
+      { japanese: '若いうちに、いろいろな経験をしたいです。', romaji: 'Wakai uchi ni, iroiro na keiken o shitai desu.', meaning: 'Selagi masih muda, saya ingin mencari banyak pengalaman.' },
+      { japanese: '雨が降らないうちに、帰りましょう。', romaji: 'Ame ga furanai uchi ni, kaerimashou.', meaning: 'Ayo pulang selagi hujan belum turun.' },
+      { japanese: '忘れないうちに、メモしておきます。', romaji: 'Wasurenai uchi ni, memo shite okimasu.', meaning: 'Saya akan mencatatnya selagi belum lupa.' },
+      { japanese: '日本にいるうちに、富士山に登りたいです。', romaji: 'Nihon ni iru uchi ni, Fujisan ni noboritai desu.', meaning: 'Selagi berada di Jepang, saya ingin mendaki Gunung Fuji.' }
+    ]
+  },
+  { 
+    title: '~あいだに (Aida ni)', 
+    formula: 'KK(Kamus/Te-iru) + 間に | KB + の間に', 
+    explanation: 'Terjadinya suatu aksi sesaat di tengah berlangsungnya aksi lain.', 
+    level: 'N3',
+    examples: [
+      { japanese: '留守の間に、泥棒が入りました。', romaji: 'Rusu no aida ni, dorobou ga hairimashita.', meaning: 'Pencuri masuk saat (saya) tidak ada di rumah.' },
+      { japanese: '電車を待っている間に、本を読みました。', romaji: 'Densha o matteiru aida ni, hon o yomimashita.', meaning: 'Saya membaca buku selagi menunggu kereta.' },
+      { japanese: '子供が寝ている間に、洗濯しました。', romaji: 'Kodomo ga neteiru aida ni, sentaku shimashita.', meaning: 'Saya mencuci baju selagi anak sedang tidur.' }
+    ]
+  },
+  { 
+    title: '~てからでないと (Te kara de nai to)', 
+    formula: 'KK(Te) + からでないと / からでなければ', 
+    explanation: 'Jika belum melakukan A, maka B tidak bisa dilakukan/terjadi.', 
+    level: 'N3',
+    examples: [
+      { japanese: '上司に相談してからでないと、決められません。', romaji: 'Joushi ni soudan shite kara de nai to, kimeraremasen.', meaning: 'Saya tidak bisa memutuskan jika belum berkonsultasi dengan atasan.' },
+      { japanese: '実物を見てからでないと、買うかどうか決められません。', romaji: 'Jitsubutsu o mite kara de nai to, kau ka dou ka kimeraremasen.', meaning: 'Saya tidak bisa memutuskan beli atau tidak kalau belum melihat barang aslinya.' },
+      { japanese: '手を洗ってからでないと、食べてはいけません。', romaji: 'Te o aratte kara de nai to, tabete wa ikemasen.', meaning: 'Tidak boleh makan kalau belum cuci tangan.' }
+    ]
+  },
+  { 
+    title: '~ところだ (Tokoro da)', 
+    formula: 'KK(Kamus/Te-iru/Ta) + ところだ', 
+    explanation: 'Menjelaskan tahapan suatu aksi: Baru akan mulai (Kamus), sedang berlangsung (Te-iru), atau baru saja selesai (Ta).', 
+    level: 'N3',
+    examples: [
+      { japanese: 'これから食べるところです。', romaji: 'Kore kara taberu tokoro desu.', meaning: 'Saya baru akan makan sekarang.' },
+      { japanese: '今、調べているところです。', romaji: 'Ima, shirabete iru tokoro desu.', meaning: 'Sekarang saya sedang memeriksanya.' },
+      { japanese: 'たった今、バスが出たところです。', romaji: 'Tatta ima, basu ga deta tokoro desu.', meaning: 'Busnya baru saja berangkat.' }
+    ]
+  },
+  { 
+    title: '~とおりに (Toori ni)', 
+    formula: 'KK(Kamus/Ta) + とおりに | KB + のとおりに | KB + どおりに', 
+    explanation: 'Melakukan sesuatu "sesuai dengan" atau "seperti" contoh/instruksi.', 
+    level: 'N3',
+    examples: [
+      { japanese: '私が言ったとおりに、書いてください。', romaji: 'Watashi ga itta toori ni, kaite kudasai.', meaning: 'Tuliskanlah sesuai dengan yang saya ucapkan.' },
+      { japanese: '説明書のとおりに、組み立てました。', romaji: 'Setsumeisho no toori ni, kumitatemashita.', meaning: 'Saya merakitnya sesuai dengan buku petunjuk.' },
+      { japanese: '予想どおり、チームは勝ちました。', romaji: 'Yosou doori, chiimu wa kachimashita.', meaning: 'Sesuai dugaan, timnya menang.' }
+    ]
+  }
+];

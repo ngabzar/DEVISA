@@ -1,0 +1,84 @@
+import { Question } from "../../types";
+
+export const latihan_partikel_11: Question[] = [
+  {
+    q: "きょうは　きのう＿　あついです。",
+    options: ["より", "ほど", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Partikel 'yori' (より) digunakan untuk perbandingan, berarti 'daripada'."
+  },
+  {
+    q: "バス＿　でんしゃのほうが　はやいです。",
+    options: ["より", "ほど", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Pola perbandingan 'A yori B no hou ga...' (Daripada A, B lebih...)."
+  },
+  {
+    q: "ことしは　きょねん＿　さむくないです。",
+    options: ["ほど", "より", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "Partikel 'hodo' (ほど) dalam kalimat negatif berarti 'tidak se...'."
+  },
+  {
+    q: "えいごは　にほんご＿　むずかしくないです。",
+    options: ["ほど", "より", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Tidak sesulit bahasa Jepang' menggunakan pola 'hodo + negatif'."
+  },
+  {
+    q: "やま＿　しゅくだいが　あります。",
+    options: ["ほど", "より", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Hodo' juga bisa berarti 'sebanyak' atau 'sampai level'. 'Yama hodo' = sebanyak gunung."
+  },
+  {
+    q: "かれは　わたし＿　せが　たかい。",
+    options: ["より", "ほど", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Dia lebih tinggi DARIPADA saya'. Partikel 'yori'."
+  },
+  {
+    q: "きのうの　しけん＿　かんたんじゃない。",
+    options: ["ほど", "より", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Tidak semudah ujian kemarin'. Partikel 'hodo' dengan negatif."
+  },
+  {
+    q: "しぬ＿　つかれました。",
+    options: ["ほど", "より", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Lelah sampai tingkat mau mati'. Partikel 'hodo' untuk menyatakan level/batas."
+  },
+  {
+    q: "にく＿　さかなのほうが　ヘルシーです。",
+    options: ["より", "ほど", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Daripada daging, ikan lebih sehat'. Pola 'A yori B no hou ga'."
+  },
+  {
+    q: "わたしは　おもう＿　むずかしくなかった。",
+    options: ["ほど", "より", "だけ", "しか"],
+    correct: 0,
+    type: "PARTICLE",
+    inputType: "CHOICE",
+    explanation: "'Tidak sesulit yang saya kira'. 'Omou hodo' = setingkat yang dipikirkan."
+  }
+];

@@ -1,0 +1,49 @@
+import { Question } from "../../types";
+
+export const jlptn1_1: Question[] = [
+  {
+    q: "被害の状況を　「迅速」に　把握する。",
+    q_romaji: "higai no joukyou o 'jinsoku' ni haaku suru.",
+    options: ["じんそく", "しんそく", "じんそん", "しんそん"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: じんそく (Jinsoku)**\n\n**Analisis Kanji:**\n- **迅速 (Jinsoku):** Cepat / Gesit (sering digunakan dalam konteks resmi/berita).\n- **迅 (Jin):** Cepat.\n- **速 (Soku):** Cepat."
+  },
+  {
+    q: "この本は、日本の歴史を　「網羅」している。",
+    q_romaji: "kono hon wa, nihon no rekishi o 'moura' shite iru.",
+    options: ["もうら", "あみら", "こうら", "そうら"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: もうら (Moura)**\n\n**Analisis Kata:**\n- **網羅 (Moura):** Mencakup semuanya / Menyeluruh.\n- Kata ini sering muncul di N1 untuk bacaan abstrak."
+  },
+  {
+    q: "資金不足のため、計画の変更を「______」。",
+    q_romaji: "shikinbusoku no tame, keikaku no henkou o '______'.",
+    options: ["余儀なくされた", "禁じ得ない", "かたくない", "やむをえない"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: 余儀なくされた (Yoginaku sareta)**\n\n**Analisis Tata Bahasa N1:**\n- **〜を余儀なくされる (~o yoginaku sareru):** Terpaksa melakukan sesuatu karena keadaan.\n- **やむをえない (Yamu o enai):** Punya makna mirip, tapi penggunaannya tidak langsung dengan partikel 'を'."
+  },
+  {
+    q: "人の命「______」問題だから、慎重に扱うべきだ。",
+    q_romaji: "hito no inochi '______' mondai dakara, shinchou ni atsukau beki da.",
+    options: ["にかかわる", "にたる", "にそくした", "にひきかえ"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: にかかわる (Ni kakawaru)**\n\n**Analisis Tata Bahasa N1:**\n- **〜にかかわる (~ni kakawaru):** Berkaitan dengan sesuatu yang sangat penting (nyawa, kehormatan, nasib)."
+  },
+  {
+    q: "遠くの山が近くに見えるのは、目の「錯覚」だ。",
+    q_romaji: "tooku no yama ga chikaku ni mieru no wa, me no 'sakkaku' da.",
+    options: ["さっかく", "しかく", "ちかく", "かくご"],
+    correct: 0,
+    type: "JLPT_N1",
+    inputType: "CHOICE",
+    explanation: "✅ **Jawaban Benar: さっかく (Sakkaku)**\n\n**Analisis Kata:**\n- **錯覚 (Sakkaku):** Ilusi optik / Kesalahpahaman indra.\n- **錯 (Saku):** Campur aduk / Kesalahan.\n- **覚 (Kaku):** Sadar / Perasaan."
+  }
+];

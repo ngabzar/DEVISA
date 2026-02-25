@@ -1,0 +1,48 @@
+
+import { Kanji } from "../../../types";
+
+export const kanjin3_5: Kanji[] = [
+  { 
+    char: '然', level: 'N3', onyomi: ['ZEN', 'NEN'], kunyomi: ['-'], meaning: 'Alami / Demikian', strokes: 12,
+    story: 'Daging (月) anjing (犬) dibakar api (灬). Itu hal yang wajar/alami di masa lalu.',
+    examples: [
+        { word: '自然', reading: 'Shizen', meaning: 'Alam' },
+        { word: '全然', reading: 'Zenzen', meaning: 'Sama sekali (tidak)' },
+        { word: '当然', reading: 'Touzen', meaning: 'Tentu saja/Wajar' }
+    ]
+  },
+  { 
+    char: '現', level: 'N3', onyomi: ['GEN'], kunyomi: ['arawa(reru)'], meaning: 'Muncul / Sekarang', strokes: 11,
+    story: 'Raja (王) melihat (見) kenyataan yang muncul.',
+    examples: [
+        { word: '現れる', reading: 'Arawareru', meaning: 'Muncul' },
+        { word: '現在', reading: 'Genzai', meaning: 'Saat ini/Sekarang' },
+        { word: '現金', reading: 'Genkin', meaning: 'Uang tunai' }
+    ]
+  },
+  { 
+    char: '在', level: 'N3', onyomi: ['ZAI'], kunyomi: ['a(ru)'], meaning: 'Ada (Eksis)', strokes: 6,
+    story: 'Berada di (在) tanah (土) dengan bakat (才).',
+    examples: [
+        { word: '現在', reading: 'Genzai', meaning: 'Saat ini' },
+        { word: '存在', reading: 'Sonzai', meaning: 'Keberadaan' }
+    ]
+  },
+  { 
+    char: '確', level: 'N3', onyomi: ['KAKU'], kunyomi: ['tashi(ka)'], meaning: 'Pasti / Yakin', strokes: 15,
+    story: 'Batu (石) di rumah burung (雚). Sesuatu yang solid dan pasti.',
+    examples: [
+        { word: '確か', reading: 'Tashika', meaning: 'Pasti/Mungkin (If I recall correctly)' },
+        { word: '確認', reading: 'Kakunin', meaning: 'Konfirmasi' },
+        { word: '正確', reading: 'Seikaku', meaning: 'Akurat' }
+    ]
+  },
+  { 
+    char: '認', level: 'N3', onyomi: ['NIN'], kunyomi: ['mito(meru)'], meaning: 'Mengakui', strokes: 14,
+    story: 'Kata-kata (言) yang ditahan (忍). Mengakui kesalahan.',
+    examples: [
+        { word: '認める', reading: 'Mitomeru', meaning: 'Mengakui/Menyetujui' },
+        { word: '確認', reading: 'Kakunin', meaning: 'Konfirmasi' }
+    ]
+  }
+];

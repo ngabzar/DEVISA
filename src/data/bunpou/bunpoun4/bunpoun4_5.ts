@@ -1,0 +1,39 @@
+import { Grammar } from "../../../types";
+
+export const bunpoun4_5: Grammar[] = [
+  { 
+    title: '~なければなりません (Nakereba narimasen)', 
+    formula: 'KK(Bentuk Nai - buang i) + ければなりません', 
+    explanation: 'Harus melakukan sesuatu (Wajib).', 
+    example: '薬を飲まなければなりません (Harus minum obat).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~なきゃ (Nakya)', 
+    formula: 'KK(Bentuk Nai - buang i) + きゃ', 
+    explanation: 'Bentuk kasual dari "Harus".', 
+    example: '勉強しなきゃ (Harus belajar).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~なくてもいいです (Nakutemo ii desu)', 
+    formula: 'KK(Bentuk Nai - buang i) + くてもいいです', 
+    explanation: 'Tidak harus / Tidak perlu melakukan.', 
+    example: '靴を脱がなくてもいいです (Tidak perlu melepas sepatu).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~たほうがいい (Ta hou ga ii)', 
+    formula: 'KK(Bentuk Ta) + ほうがいいです', 
+    explanation: 'Saran positif (Sebaiknya...).', 
+    example: 'もっと野菜を食べたほうがいいです (Sebaiknya makan lebih banyak sayur).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~ないほうがいい (Nai hou ga ii)', 
+    formula: 'KK(Bentuk Nai) + ほうがいいです', 
+    explanation: 'Saran negatif (Sebaiknya jangan...).', 
+    example: '無理しないほうがいいです (Sebaiknya jangan memaksakan diri).', 
+    level: 'N4' 
+  }
+];

@@ -1,0 +1,40 @@
+
+import { Particle } from "../../../types";
+
+export const partikeln2_3: Particle[] = [
+  { 
+    char: 'にわたって (Ni watatte)', 
+    usage: 'Selama / Di seluruh', 
+    explanation: '[Rumus: KB + にわたって] Menunjukkan jangkauan waktu yang panjang atau area yang luas secara keseluruhan.', 
+    example: '会議は３日間にわたって行われた (Rapat diadakan selama 3 hari).', 
+    level: 'N2',
+    examples: [
+      { japanese: '台風の影響で、広い範囲にわたって停電が起きた。', romaji: 'Taifuu no eikyou de, hiroi han\'i ni watatte teiden ga okita.', meaning: 'Akibat topan, terjadi mati listrik di wilayah yang luas.' },
+      { japanese: '彼は長きにわたって、この会社に貢献した。', romaji: 'Kare wa nagaki ni watatte, kono kaisha ni kouken shita.', meaning: 'Dia berkontribusi pada perusahaan ini dalam kurun waktu yang lama.' },
+      { japanese: '手術は１０時間にわたって行われた。', romaji: 'Shujutsu wa juujikan ni watatte okonawareta.', meaning: 'Operasi dilakukan selama 10 jam.' }
+    ]
+  },
+  { 
+    char: 'を通じて (O tsuujite)', 
+    usage: 'Melalui / Sepanjang (Waktu)', 
+    explanation: '[Rumus: KB + を通じて/を通して] 1. Menggunakan perantara (media/orang). 2. Selama periode waktu tersebut terus menerus.', 
+    example: '友人を通じて、彼と知り合った (Saya kenalan dengannya melalui teman).', 
+    level: 'N2',
+    examples: [
+      { japanese: 'インターネットを通じて、世界中の人と話せる。', romaji: 'Inta-netto o tsuujite, sekaijuu no hito to hanaseru.', meaning: 'Bisa bicara dengan orang di seluruh dunia melalui internet.' },
+      { japanese: 'この国は一年を通じて、暖かいです。', romaji: 'Kono kuni wa ichinen o tsuujite, atatakai desu.', meaning: 'Negara ini hangat sepanjang tahun.' },
+      { japanese: '社長との面会は、秘書を通じて申し込んでください。', romaji: 'Shachou to no menkai wa, hisho o tsuujite moushikonde kudasai.', meaning: 'Tolong ajukan pertemuan dengan presdir melalui sekretaris.' }
+    ]
+  },
+  { 
+    char: 'に先立って (Ni sakidatte)', 
+    usage: 'Sebelum (Agenda penting)', 
+    explanation: '[Rumus: KB + に先立って] Sebelum memulai sesuatu yang penting/besar (Formal).', 
+    example: '会議に先立って、資料が配られた (Sebelum rapat, dokumen dibagikan).', 
+    level: 'N2',
+    examples: [
+      { japanese: '映画の公開に先立って、試写会が開かれた。', romaji: 'Eiga no koukai ni sakidatte, shishakai ga hirakareta.', meaning: 'Sebelum rilis film, diadakan pemutaran perdana (preview).' },
+      { japanese: '出発に先立ち、荷物の点検を行った。', romaji: 'Shuppatsu ni sakidachi, nimotsu no tenken o okonatta.', meaning: 'Sebelum keberangkatan, dilakukan pemeriksaan barang bawaan.' }
+    ]
+  }
+];

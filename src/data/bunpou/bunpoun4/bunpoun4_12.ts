@@ -1,0 +1,5 @@
+import { Grammar } from "../../../types";
+
+export const bunpoun4_12: Grammar[] = [
+  // Tambahkan tata bahasa lainnya
+];

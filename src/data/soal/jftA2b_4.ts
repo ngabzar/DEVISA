@@ -1,0 +1,44 @@
+import { Question } from "../../types";
+
+export const jftA2b_4: Question[] = [
+  {
+    q: "駅で　道を　聞きます。\n「すみません、美術館へ　行きたいんですが、＿＿＿。」",
+    options: ["どうやって　行きますか", "どこに　ありますか", "何時ですか", "いくらですか"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Bertanya cara pergi: 'Douyatte ikimasu ka'."
+  },
+  {
+    q: "店員：「いらっしゃいませ。何名様ですか。」\n客：「＿＿＿。」",
+    options: ["二人です", "二つです", "二回です", "二本です"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Menghitung orang untuk restoran: 'Futari desu' (2 orang)."
+  },
+  {
+    q: "A:「この　ペン、使っても　いいですか。」\nB:「はい、＿＿＿。」",
+    options: ["どうぞ", "どうも", "だめです", "結構です"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Memberi izin/mempersilakan: 'Douzo' (Silakan)."
+  },
+  {
+    q: "電話番号を　聞きたいです。何と　言いますか。",
+    options: ["電話番号は　何番ですか", "電話番号は　どこですか", "電話番号は　いくらですか", "電話番号は　だれですか"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Menanyakan nomor telepon: 'Nanban desu ka'."
+  },
+  {
+    q: "「すみません、写真を　＿＿＿　ください。」",
+    options: ["撮って", "撮ります", "撮った", "撮る"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Meminta tolong: Te-form + kudasai. 'Totte kudasai'."
+  }
+];

@@ -1,0 +1,52 @@
+import { Question } from "../../types";
+
+export const jlptn5_9: Question[] = [
+  {
+    q: "きのう　だれか＿＿＿　きましたか。",
+    options: ["", "が", "は", "に"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Dareka (seseorang) sebagai subjek tidak wajib menggunakan partikel 'ga' dalam kalimat tanya."
+  },
+  {
+    q: "わたしは　きのう　どこへ＿＿＿　いきませんでした。",
+    options: ["も", "か", "と", "や"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kata tanya + 'mo' + negatif = '...pun tidak'. 'Doko e mo ikimasen deshita' = Tidak pergi ke manapun."
+  },
+  {
+    q: "いつ＿＿＿　にほんへ　きましたか。",
+    options: ["", "に", "へ", "で"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kata tanya 'itsu' (kapan) tidak memerlukan partikel waktu seperti 'ni'."
+  },
+  {
+    q: "１しゅうかん＿＿＿　２かい　テニスを　します。",
+    options: ["に", "で", "を", "と"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Untuk menyatakan frekuensi (2 kali dalam 1 minggu), partikel 'ni' digunakan."
+  },
+  {
+    q: "こども＿＿＿　とき、よく　ここで　あそびました。",
+    options: ["の", "な", "に", "で"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "'Kodomo no toki' (Waktu kecil/Saat masih anak-anak)."
+  },
+  {
+    q: "わたしは　はは＿＿＿　はなを　もらいました。",
+    options: ["に", "と", "へ", "を"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Menerima (morau) DARI seseorang menggunakan partikel 'ni' atau 'kara'."
+  }
+];

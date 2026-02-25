@@ -1,0 +1,39 @@
+import { Grammar } from "../../../types";
+
+export const bunpoun4_2: Grammar[] = [
+  { 
+    title: 'Kata Kerja Volisional (Ikoukei)', 
+    formula: 'Gol 1: u -> ou | Gol 2: ru -> you | Gol 3: kuru->koyou, suru->shiyou', 
+    explanation: 'Bentuk keinginan/ajakan kasual (Ayo/Mari).', 
+    example: '一緒に行こう (Ayo pergi bersama - kasual).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~と思います (To omoimasu)', 
+    formula: 'Bentuk Biasa + と思います', 
+    explanation: 'Menyatakan pendapat atau perkiraan (Saya pikir...).', 
+    example: '明日、雨が降ると思います (Saya pikir besok akan hujan).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~ようと思っています (You to omotte imasu)', 
+    formula: 'KK(Bentuk Volisional) + と思っています', 
+    explanation: 'Menyatakan niat yang sudah dipikirkan sejak lama (Berniat untuk...).', 
+    example: '来年、日本へ留学しようと思っています (Tahun depan saya berniat kuliah di Jepang).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~つもりです (Tsumori desu)', 
+    formula: 'KK(Bentuk Kamus/Nai) + つもりです', 
+    explanation: 'Menyatakan rencana/niat yang kuat.', 
+    example: '夏休みに国へ帰るつもりです (Saya berencana pulang kampung saat libur musim panas).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~予定です (Yotei desu)', 
+    formula: 'KK(Bentuk Kamus)/KB+の + 予定です', 
+    explanation: 'Menyatakan jadwal atau rencana pasti.', 
+    example: '会議は2時に終わる予定です (Rapat dijadwalkan selesai jam 2).', 
+    level: 'N4' 
+  }
+];

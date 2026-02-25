@@ -1,0 +1,52 @@
+import { Question } from "../../types";
+
+export const jlptn4_6: Question[] = [
+  {
+    q: "この　お寺は　＿＿＿　前に　建てられました。",
+    options: ["ずいぶん", "やっと", "とうとう", "だんだん"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Zuibun mae ni = Jauh sebelumnya / Sudah lama sekali."
+  },
+  {
+    q: "弟は　まだ　小さいですから、一人で　＿＿＿　ことが　できません。",
+    options: ["着替える", "乗り換える", "片付ける", "引っ越す"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Anak kecil belum bisa 'kigaeru' (ganti baju) sendiri."
+  },
+  {
+    q: "すみません、＿＿＿　よろしいですか。",
+    options: ["ちょっと", "やっと", "きゅうに", "すぐに"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Frasa sopan untuk memulai pembicaraan: 'Chotto yoroshii desu ka' (Permisi sebentar?)."
+  },
+  {
+    q: "山田さんは　来月　＿＿＿　そうです。",
+    options: ["結婚する", "結婚して", "結婚した", "結婚したい"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Pola 'sou desu' (kabarnya) menggunakan bentuk kamus. 'Kekkon suru sou desu'."
+  },
+  {
+    q: "レポートの　＿＿＿は　来週の　月曜日です。",
+    options: ["締め切り", "始まり", "終わり", "休み"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Shimekiri = Batas waktu pengumpulan/Deadline."
+  },
+  {
+    q: "駅に　着いたら、＿＿＿　連絡します。",
+    options: ["すぐ", "もう", "まだ", "さっき"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Sugu renraku shimasu = Segera menghubungi."
+  }
+];

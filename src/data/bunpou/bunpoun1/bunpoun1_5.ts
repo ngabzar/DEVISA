@@ -1,0 +1,60 @@
+
+import { Grammar } from "../../../types";
+
+export const bunpoun1_5: Grammar[] = [
+  { 
+    title: '~だに (Da ni)', 
+    formula: 'KK(Kamus) / KB + だに', 
+    explanation: 'Hanya dengan... saja sudah... (biasanya perasaan negatif/takut/terharu).', 
+    level: 'N1',
+    examples: [
+      { japanese: 'そんなことは夢にだに思わなかった。', romaji: 'Sonna koto wa yume ni da ni omowanakatta.', meaning: 'Hal itu bahkan dalam mimpi pun tidak pernah terpikirkan.' },
+      { japanese: '想像するだに恐ろしい。', romaji: 'Souzou suru da ni osoroshii.', meaning: 'Membayangkannya saja sudah mengerikan.' },
+      { japanese: '微動だにしない。', romaji: 'Bidou da ni shinai.', meaning: 'Tidak bergerak sedikitpun (bahkan gerakan kecil pun tidak).' }
+    ]
+  },
+  { 
+    title: '~すら (Sura)', 
+    formula: 'KB (+Partikel) + すら', 
+    explanation: 'Bahkan... (Hal yang ekstrem/mendasar saja begitu, apalagi yang lain). Mirip "sae".', 
+    level: 'N1',
+    examples: [
+      { japanese: '忙しくて、食事をとる時間すらありません。', romaji: 'Isogashikute, shokuji o toru jikan sura arimasen.', meaning: 'Sangat sibuk, bahkan waktu makan pun tidak ada.' },
+      { japanese: '彼は自分の名前すら書けない。', romaji: 'Kare wa jibun no namae sura kakenai.', meaning: 'Dia bahkan tidak bisa menulis namanya sendiri.' },
+      { japanese: 'この問題は先生でスラ解けなかった。', romaji: 'Kono mondai wa sensei de sura tokenakatta.', meaning: 'Masalah ini bahkan guru pun tidak bisa memecahkannya.' }
+    ]
+  },
+  { 
+    title: '~たりとも (Tari tomo)', 
+    formula: 'KB(Jumlah/Satuan Terkecil) + たりとも + ...ない', 
+    explanation: 'Meskipun hanya (satu)... pun tidak (akan ditoleransi/dibiarkan).', 
+    level: 'N1',
+    examples: [
+      { japanese: '一瞬たりとも気が抜けない。', romaji: 'Isshun tari tomo ki ga nukenai.', meaning: 'Tidak boleh lengah satu detik pun.' },
+      { japanese: '一円たりとも無駄にはできない。', romaji: 'Ichien tari tomo muda ni wa dekinai.', meaning: 'Satu yen pun tidak boleh disia-siakan.' },
+      { japanese: '敵は一人たりとも逃がさない。', romaji: 'Teki wa hitori tari tomo nigasanai.', meaning: 'Musuh tidak akan kubiarkan lolos seorang pun.' }
+    ]
+  },
+  { 
+    title: '~つ～つ (Tsu... tsu)', 
+    formula: 'KK(Masu-stem) + つ + KK(Masu-stem) + つ', 
+    explanation: 'Saling... (Aksi berbalasan atau kontras yang terjadi bergantian).', 
+    level: 'N1',
+    examples: [
+      { japanese: '彼とは持ちつ持たれつの関係だ。', romaji: 'Kare to wa mochitsu motaretsu no kankei da.', meaning: 'Hubungan dengan dia itu saling tolong-menolong (take and give).' },
+      { japanese: '昨日のマラソンは、抜きつ抜かれつの大接戦だった。', romaji: 'Kinou no marason wa, nukitsu nukaretsu no daisessen datta.', meaning: 'Maraton kemarin adalah pertarungan sengit saling salip-menyalip.' },
+      { japanese: '行きつ戻りつして、ようやくたどり着いた。', romaji: 'Yukitsu modoritsu shite, youyaku tadoritsuita.', meaning: 'Maju mundur (bolak-balik ragu), akhirnya sampai juga.' }
+    ]
+  },
+  { 
+    title: '~てやまない (Te yamanai)', 
+    formula: 'KK(Te) + やまない', 
+    explanation: 'Sangat/Tulus... (Perasaan yang kuat dan tidak berhenti). Biasanya untuk doa, harapan, hormat.', 
+    level: 'N1',
+    examples: [
+      { japanese: '友人の回復を願ってやまない。', romaji: 'Yuujin no kaifuku o negatte yamanai.', meaning: 'Saya sangat berharap demi kesembuhan teman (tak henti-hentinya).' },
+      { japanese: '世界平和を祈ってやみません。', romaji: 'Sekai heiwa o inotte yamimasen.', meaning: 'Saya tak henti-hentinya berdoa untuk perdamaian dunia.' },
+      { japanese: '彼を尊敬してやまない。', romaji: 'Kare o sonkei shite yamanai.', meaning: 'Saya sangat menghormatinya.' }
+    ]
+  }
+];

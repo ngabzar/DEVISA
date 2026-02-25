@@ -1,0 +1,78 @@
+import { Kanji } from "../../../types";
+
+export const kanjin4_5: Kanji[] = [
+  { 
+    char: '春', level: 'N4', onyomi: ['SHUN'], kunyomi: ['haru'], meaning: 'Musim Semi', strokes: 9,
+    story: 'Matahari (日) bersinar pada tiga orang yang piknik. MUSIM SEMI.',
+    examples: [
+      { word: '春', reading: 'Haru', meaning: 'Musim semi' },
+      { word: '春休み', reading: 'Haruyasumi', meaning: 'Libur musim semi' }
+    ]
+  },
+  { 
+    char: '夏', level: 'N4', onyomi: ['KA'], kunyomi: ['natsu'], meaning: 'Musim Panas', strokes: 10,
+    story: 'Kepala (頁 tanpa bawah) berjalan lambat (夂) karena kepanasan. MUSIM PANAS.',
+    examples: [
+      { word: '夏', reading: 'Natsu', meaning: 'Musim panas' },
+      { word: '夏休み', reading: 'Natsuyasumi', meaning: 'Libur musim panas' }
+    ]
+  },
+  { 
+    char: '秋', level: 'N4', onyomi: ['SHUU'], kunyomi: ['aki'], meaning: 'Musim Gugur', strokes: 9,
+    story: 'Gandum (禾) dan Api (火). Jerami dibakar setelah panen. MUSIM GUGUR.',
+    examples: [
+      { word: '秋', reading: 'Aki', meaning: 'Musim gugur' },
+      { word: '秋分', reading: 'Shuubun', meaning: 'Ekuinoks musim gugur' }
+    ]
+  },
+  { 
+    char: '冬', level: 'N4', onyomi: ['TOU'], kunyomi: ['fuyu'], meaning: 'Musim Dingin', strokes: 5,
+    story: 'Es (冫) di kaki orang yang berjalan (夂). MUSIM DINGIN.',
+    examples: [
+      { word: '冬', reading: 'Fuyu', meaning: 'Musim dingin' },
+      { word: '冬休み', reading: 'Fuyuyasumi', meaning: 'Libur musim dingin' }
+    ]
+  },
+  { 
+    char: '海', level: 'N4', onyomi: ['KAI'], kunyomi: ['umi'], meaning: 'Laut', strokes: 9,
+    story: 'Air (氵) yang ada setiap hari (毎). LAUT.',
+    examples: [
+      { word: '海', reading: 'Umi', meaning: 'Laut' },
+      { word: '海外', reading: 'Kaigai', meaning: 'Luar negeri' },
+      { word: '北海道', reading: 'Hokkaidou', meaning: 'Hokkaido' }
+    ]
+  },
+  { 
+    char: '風', level: 'N4', onyomi: ['FUU'], kunyomi: ['kaze'], meaning: 'Angin', strokes: 9,
+    story: 'Serangga (虫) yang terbawa angin dalam layar. ANGIN.',
+    examples: [
+      { word: '風', reading: 'Kaze', meaning: 'Angin' },
+      { word: '台風', reading: 'Taifuu', meaning: 'Topan' },
+      { word: 'お風呂', reading: 'Ofuro', meaning: 'Bak mandi' }
+    ]
+  },
+  { 
+    char: '晴', level: 'N4', onyomi: ['SEI'], kunyomi: ['ha(reru)'], meaning: 'Cerah', strokes: 12,
+    story: 'Matahari (日) dan langit biru (青). Cuaca CERAH.',
+    examples: [
+      { word: '晴れ', reading: 'Hare', meaning: 'Cerah' },
+      { word: '晴れる', reading: 'Hareru', meaning: 'Menjadi cerah' }
+    ]
+  },
+  { 
+    char: '雪', level: 'N4', onyomi: ['SETSU'], kunyomi: ['yuki'], meaning: 'Salju', strokes: 11,
+    story: 'Hujan (雨) yang bisa dipegang tangan (ヨ) atau disapu. SALJU.',
+    examples: [
+      { word: '雪', reading: 'Yuki', meaning: 'Salju' },
+      { word: '大雪', reading: 'Ooyuki', meaning: 'Salju lebat' }
+    ]
+  },
+  { 
+    char: '池', level: 'N4', onyomi: ['CHI'], kunyomi: ['ike'], meaning: 'Kolam', strokes: 6,
+    story: 'Air (氵) dan kalajengking/juga (也). KOLAM air.',
+    examples: [
+      { word: '池', reading: 'Ike', meaning: 'Kolam' },
+      { word: '電池', reading: 'Denchi', meaning: 'Baterai' }
+    ]
+  },
+];

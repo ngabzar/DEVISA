@@ -1,0 +1,25 @@
+import { Kana } from "../../../types";
+
+export const katakana_2: Kana[] = [
+  { char: 'ハ', romaji: 'ha', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ヒ', romaji: 'hi', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'フ', romaji: 'fu', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ヘ', romaji: 'he', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ホ', romaji: 'ho', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'マ', romaji: 'ma', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ミ', romaji: 'mi', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ム', romaji: 'mu', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'メ', romaji: 'me', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'モ', romaji: 'mo', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ヤ', romaji: 'ya', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ユ', romaji: 'yu', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ヨ', romaji: 'yo', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ラ', romaji: 'ra', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'リ', romaji: 'ri', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ル', romaji: 'ru', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'レ', romaji: 're', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ロ', romaji: 'ro', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ワ', romaji: 'wa', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ヲ', romaji: 'wo', type: 'KATAKANA', group: 'GOJUUON' },
+  { char: 'ン', romaji: 'n', type: 'KATAKANA', group: 'GOJUUON' },
+];

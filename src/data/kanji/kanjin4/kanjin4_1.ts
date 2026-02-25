@@ -1,0 +1,80 @@
+import { Kanji } from "../../../types";
+
+export const kanjin4_1: Kanji[] = [
+  { 
+    char: '家', level: 'N4', onyomi: ['KA', 'KE'], kunyomi: ['ie', 'uchi'], meaning: 'Rumah', strokes: 10,
+    story: 'Babi (豕) di bawah atap (宀). Zaman dulu ternak tinggal di dalam rumah.',
+    examples: [
+        { word: '家', reading: 'Ie', meaning: 'Rumah' },
+        { word: '家族', reading: 'Kazoku', meaning: 'Keluarga' },
+        { word: '家内', reading: 'Kanai', meaning: 'Istri (saya)' }
+    ]
+  },
+  { 
+    char: '族', level: 'N4', onyomi: ['ZOKU'], kunyomi: ['-'], meaning: 'Keluarga / Suku', strokes: 11,
+    story: 'Sekelompok orang di bawah bendera (方) dengan panah (矢) siap berperang (Suku).',
+    examples: [
+        { word: '家族', reading: 'Kazoku', meaning: 'Keluarga' },
+        { word: '水族館', reading: 'Suizokukan', meaning: 'Akuarium' }
+    ]
+  },
+  { 
+    char: '兄', level: 'N4', onyomi: ['KEI', 'KYOU'], kunyomi: ['ani'], meaning: 'Kakak Laki-laki', strokes: 5,
+    story: 'Mulut (口) di atas kaki (儿). Kakak laki-laki yang memberi perintah (berbicara).',
+    examples: [
+        { word: '兄', reading: 'Ani', meaning: 'Kakak laki-laki (saya)' },
+        { word: 'お兄さん', reading: 'Oniisan', meaning: 'Kakak laki-laki (orang lain)' },
+        { word: '兄弟', reading: 'Kyoudai', meaning: 'Saudara' }
+    ]
+  },
+  { 
+    char: '弟', level: 'N4', onyomi: ['TEI', 'DAI'], kunyomi: ['otouto'], meaning: 'Adik Laki-laki', strokes: 7,
+    story: 'Busur panah yang dililit tali, urutan di bawah (adik).',
+    examples: [
+        { word: '弟', reading: 'Otouto', meaning: 'Adik laki-laki (saya)' },
+        { word: '兄弟', reading: 'Kyoudai', meaning: 'Saudara' }
+    ]
+  },
+  { 
+    char: '姉', level: 'N4', onyomi: ['SHI'], kunyomi: ['ane'], meaning: 'Kakak Perempuan', strokes: 8,
+    story: 'Wanita (女) yang pergi ke pasar (市) adalah kakak perempuan.',
+    examples: [
+        { word: '姉', reading: 'Ane', meaning: 'Kakak perempuan (saya)' },
+        { word: 'お姉さん', reading: 'Oneesan', meaning: 'Kakak perempuan (orang lain)' },
+        { word: '姉妹', reading: 'Shimai', meaning: 'Saudari' }
+    ]
+  },
+  { 
+    char: '妹', level: 'N4', onyomi: ['MAI'], kunyomi: ['imouto'], meaning: 'Adik Perempuan', strokes: 8,
+    story: 'Wanita (女) yang belum (未) dewasa adalah adik perempuan.',
+    examples: [
+        { word: '妹', reading: 'Imouto', meaning: 'Adik perempuan (saya)' },
+        { word: '妹さん', reading: 'Imoutosan', meaning: 'Adik perempuan (orang lain)' }
+    ]
+  },
+  { 
+    char: '私', level: 'N4', onyomi: ['SHI'], kunyomi: ['watashi'], meaning: 'Saya', strokes: 7,
+    story: 'Tanaman padi (禾) adalah milik pribadi (ム - diri sendiri).',
+    examples: [
+        { word: '私', reading: 'Watashi', meaning: 'Saya' },
+        { word: '私立', reading: 'Shiritsu', meaning: 'Swasta' }
+    ]
+  },
+  { 
+    char: '両', level: 'N4', onyomi: ['RYOU'], kunyomi: ['-'], meaning: 'Kedua', strokes: 6,
+    story: 'Timbangan dengan dua sisi yang seimbang.',
+    examples: [
+        { word: '両親', reading: 'Ryoushin', meaning: 'Kedua orang tua' },
+        { word: '両方', reading: 'Ryouhou', meaning: 'Kedua belah pihak' }
+    ]
+  },
+  { 
+    char: '親', level: 'N4', onyomi: ['SHIN'], kunyomi: ['oya', 'shita(shii)'], meaning: 'Orang Tua / Akrab', strokes: 16,
+    story: 'Berdiri (立) di atas pohon (木) untuk melihat (見) anak-anaknya. Orang tua.',
+    examples: [
+        { word: '親', reading: 'Oya', meaning: 'Orang tua' },
+        { word: '親切', reading: 'Shinsetsu', meaning: 'Ramah/Baik hati' },
+        { word: '親しい', reading: 'Shitashii', meaning: 'Akrab' }
+    ]
+  },
+];

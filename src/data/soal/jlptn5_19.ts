@@ -1,0 +1,20 @@
+import { Question } from "../../types";
+
+export const jlptn5_19: Question[] = [
+  {
+    q: "【メール】\nけんたさんへ\nこんどの　どようび、わたしの　うちで　パーティーを　します。\nごご　６じごろ　きてください。やまださんも　きます。\nたのしみに　しています。\n　　　　　　　　　　　　　　　　　　　　　リンより\n\n質問：パーティーは　いつですか。",
+    options: ["こんばん", "どようびの　ごご", "まいにち", "どようびの　ごぜん"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Teks menyatakan 'kondo no doyoubi' (Sabtu ini) dan 'gogo 6-ji goro' (sekitar jam 6 sore)."
+  },
+  {
+    q: "【メール】\nせんせい、すみません。\nきょうは　あたまが　いたいですから、がっこうを　やすみます。\n　　　　　　　　　　　　　　　　　　　　　マリア\n\n質問：マリアさんは　どうして　がっこうを　やすみますか。",
+    options: ["げんきですから", "あたまが　いたいですから", "ひまですから", "いそがしいですから"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Alasannya adalah 'atama ga itai desu kara' (karena sakit kepala)."
+  }
+];

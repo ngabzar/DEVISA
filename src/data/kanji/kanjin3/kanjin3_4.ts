@@ -1,0 +1,46 @@
+
+import { Kanji } from "../../../types";
+
+export const kanjin3_4: Kanji[] = [
+  { 
+    char: '貿', level: 'N3', onyomi: ['BOU'], kunyomi: ['-'], meaning: 'Perdagangan', strokes: 12,
+    story: 'Membuka pintu (卯) untuk bertukar uang (貝). Perdagangan.',
+    examples: [
+        { word: '貿易', reading: 'Boueki', meaning: 'Perdagangan (luar negeri)' }
+    ]
+  },
+  { 
+    char: '易', level: 'N3', onyomi: ['EKI', 'I'], kunyomi: ['yasa(shii)'], meaning: 'Mudah / Tukar', strokes: 8,
+    story: 'Matahari (日) bersinar, jangan (勿) khawatir, ini mudah.',
+    examples: [
+        { word: '易しい', reading: 'Yasashii', meaning: 'Mudah' },
+        { word: '貿易', reading: 'Boueki', meaning: 'Perdagangan' },
+        { word: '安易', reading: 'An-i', meaning: 'Mudah/Gampangan' }
+    ]
+  },
+  { 
+    char: '価', level: 'N3', onyomi: ['KA'], kunyomi: ['atai'], meaning: 'Harga / Nilai', strokes: 8,
+    story: 'Orang (イ) di barat (西). Harga barang barat.',
+    examples: [
+        { word: '物価', reading: 'Bukka', meaning: 'Harga barang/Biaya hidup' },
+        { word: '価格', reading: 'Kakaku', meaning: 'Harga' },
+        { word: '価値', reading: 'Kachi', meaning: 'Nilai' }
+    ]
+  },
+  { 
+    char: '貧', level: 'N3', onyomi: ['HIN', 'BIN'], kunyomi: ['mazu(shii)'], meaning: 'Miskin', strokes: 11,
+    story: 'Membagi (分) uang (貝) sampai habis. Miskin.',
+    examples: [
+        { word: '貧しい', reading: 'Mazushii', meaning: 'Miskin' },
+        { word: '貧乏', reading: 'Binbou', meaning: 'Miskin/Melarat' }
+    ]
+  },
+  { 
+    char: '富', level: 'N3', onyomi: ['FU', 'FUU'], kunyomi: ['to(mu)', 'tomi'], meaning: 'Kaya', strokes: 12,
+    story: 'Di rumah (宀) ada satu (一) mulut (口) dan ladang (田) yang luas. Kaya.',
+    examples: [
+        { word: '富士山', reading: 'Fujisan', meaning: 'Gunung Fuji' },
+        { word: '豊富', reading: 'Houfu', meaning: 'Melimpah/Kaya' }
+    ]
+  }
+];

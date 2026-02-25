@@ -1,0 +1,73 @@
+import { Kanji } from "../../../types";
+
+export const kanjin4_2: Kanji[] = [
+  { 
+    char: '主', level: 'N4', onyomi: ['SHU'], kunyomi: ['nushi', 'omo'], meaning: 'Tuan / Utama', strokes: 5,
+    story: 'Api lilin yang berdiri tegak. Melambangkan TUAN rumah.',
+    examples: [
+      { word: '主人', reading: 'Shujin', meaning: 'Suami/Tuan' },
+      { word: '主に', reading: 'Omoni', meaning: 'Terutama' }
+    ]
+  },
+  { 
+    char: '社', level: 'N4', onyomi: ['SHA'], kunyomi: ['yashiro'], meaning: 'Perusahaan / Kuil', strokes: 7,
+    story: 'Dewa tanah (土) di altar (ネ). Berkumpul di PERUSAHAAN/KUIL.',
+    examples: [
+      { word: '会社', reading: 'Kaisha', meaning: 'Perusahaan' },
+      { word: '社長', reading: 'Shachou', meaning: 'Presiden direktur' },
+      { word: '神社', reading: 'Jinja', meaning: 'Kuil Shinto' }
+    ]
+  },
+  { 
+    char: '員', level: 'N4', onyomi: ['IN'], kunyomi: ['-'], meaning: 'Anggota', strokes: 10,
+    story: 'Pegawai (mulut/口) yang menghitung uang (kerang/貝). ANGGOTA.',
+    examples: [
+      { word: '社員', reading: 'Shain', meaning: 'Karyawan' },
+      { word: '銀行員', reading: 'Ginkouin', meaning: 'Pegawai bank' },
+      { word: '店員', reading: 'Tenin', meaning: 'Pelayan toko' }
+    ]
+  },
+  { 
+    char: '仕', level: 'N4', onyomi: ['SHI'], kunyomi: ['tsuka(eru)'], meaning: 'Melayani', strokes: 5,
+    story: 'Orang (人) yang berstatus samurai (士) MELAYANI tuan.',
+    examples: [
+      { word: '仕事', reading: 'Shigoto', meaning: 'Pekerjaan' },
+      { word: '仕方', reading: 'Shikata', meaning: 'Cara' }
+    ]
+  },
+  { 
+    char: '事', level: 'N4', onyomi: ['JI'], kunyomi: ['koto'], meaning: 'Hal / Masalah', strokes: 8,
+    story: 'Tangan memegang kuas mencatat suatu HAL/KEJADIAAN.',
+    examples: [
+      { word: '仕事', reading: 'Shigoto', meaning: 'Pekerjaan' },
+      { word: '食事', reading: 'Shokuji', meaning: 'Makan (Kegiatan)' },
+      { word: '大事', reading: 'Daiji', meaning: 'Penting' }
+    ]
+  },
+  { 
+    char: '者', level: 'N4', onyomi: ['SHA'], kunyomi: ['mono'], meaning: 'Orang (Profesional)', strokes: 8,
+    story: 'Orang tua (老) yang berbicara (日)? ORANG yang ahli.',
+    examples: [
+      { word: '医者', reading: 'Isha', meaning: 'Dokter' },
+      { word: '学者', reading: 'Gakusha', meaning: 'Sarjana/Ilmuwan' },
+      { word: '若者', reading: 'Wakamono', meaning: 'Anak muda' }
+    ]
+  },
+  { 
+    char: '銀', level: 'N4', onyomi: ['GIN'], kunyomi: ['-'], meaning: 'Perak', strokes: 14,
+    story: 'Logam (金) yang baik (艮). PERAK.',
+    examples: [
+      { word: '銀行', reading: 'Ginkou', meaning: 'Bank' },
+      { word: '銀', reading: 'Gin', meaning: 'Perak' }
+    ]
+  },
+  { 
+    char: '医', level: 'N4', onyomi: ['I'], kunyomi: ['-'], meaning: 'Medis', strokes: 7,
+    story: 'Panah (矢) disimpan di dalam kotak (匚). DOKTER/MEDIS.',
+    examples: [
+      { word: '医者', reading: 'Isha', meaning: 'Dokter' },
+      { word: '医学', reading: 'Igaku', meaning: 'Ilmu kedokteran' },
+      { word: '医院', reading: 'Iin', meaning: 'Klinik' }
+    ]
+  },
+];

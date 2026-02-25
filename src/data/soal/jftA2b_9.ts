@@ -1,0 +1,44 @@
+import { Question } from "../../types";
+
+export const jftA2b_9: Question[] = [
+  {
+    q: "「暑いですね。窓を　＿＿＿。」",
+    options: ["開けましょうか", "開けてください", "開けてもいいですか", "開けますか"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Menawarkan bantuan: 'Mashou ka' (Mau saya bukakan?)."
+  },
+  {
+    q: "「すみません、塩を　＿＿＿。」",
+    options: ["取って　ください", "取ります", "取って　います", "取れば　いいです"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Meminta tolong: 'Totte kudasai' (Tolong ambilkan)."
+  },
+  {
+    q: "「ちょっと　ボールペンを　＿＿＿　いただけませんか。」",
+    options: ["貸して", "貸す", "貸した", "貸し"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Permintaan sangat sopan: 'Te-form + itadakemasen ka'."
+  },
+  {
+    q: "「ここで　タバコを　吸っても　＿＿＿。」",
+    options: ["いいですか", "ください", "いけません", "吸いますか"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Meminta izin: 'Temo ii desu ka'."
+  },
+  {
+    q: "「荷物が　多いですね。＿＿＿。」",
+    options: ["持ちましょうか", "持って　ください", "持っても　いいですか", "持ちますよ"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Menawarkan bantuan membawa barang: 'Mochimashou ka'."
+  }
+];

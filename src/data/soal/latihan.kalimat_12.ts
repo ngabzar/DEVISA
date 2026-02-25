@@ -1,0 +1,60 @@
+import { Question } from "../../types";
+
+export const latihan_kalimat_12: Question[] = [
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tolong lihat.\"",
+    correctAnswers: ["mite kudasai"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Miru -> Mite kudasai."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tolong dengarkan.\"",
+    correctAnswers: ["kiite kudasai"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Kiku -> Kiite kudasai."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tolong tunggu sebentar.\"",
+    correctAnswers: ["chotto matte kudasai", "sukoshi matte kudasai"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Matsu -> Matte. Chotto = Sebentar."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tolong tulis nama.\"",
+    correctAnswers: ["namae o kaite kudasai"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Kaku -> Kaite."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Indonesia:\n\"Yukkuri hanashite kudasai.\"",
+    correctAnswers: ["tolong bicara pelan-pelan", "tolong bicara perlahan"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Yukkuri = Pelan-pelan."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tolong ajarkan.\"",
+    correctAnswers: ["oshiete kudasai"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Oshieru -> Oshiete."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tolong buka pintu.\"",
+    correctAnswers: ["doa o akete kudasai"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Akeru -> Akete."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Tolong pinjamkan buku.\"",
+    correctAnswers: ["hon o kashite kudasai"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Kasu (Meminjamkan) -> Kashite."
+  }
+];

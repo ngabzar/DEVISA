@@ -1,0 +1,67 @@
+import { Question } from "../../types";
+
+export const jlptn5_3: Question[] = [
+  {
+    q: "「でんき」を　つけます。",
+    q_romaji: "'denki' o tsukemasu.",
+    options: ["電気", "電機", "天気", "元気"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Denki (listrik) adalah 電気."
+  },
+  {
+    q: "「かぞく」と　いっしょに　来ました。",
+    q_romaji: "'kazoku' to issho ni kimashita.",
+    options: ["家旅", "家旅", "家族", "家屋"],
+    correct: 2,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kazoku (keluarga) adalah 家族."
+  },
+  {
+    q: "「はな」を　買います。",
+    q_romaji: "'hana' o kaimasu.",
+    options: ["花", "草", "茶", "海"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Hana (bunga) adalah 花."
+  },
+  {
+    q: "「ゆうびんきょく」は　どこですか。",
+    q_romaji: "'yuubinkyoku' wa doko desu ka.",
+    options: ["郵便局", "郵使局", "郵伸局", "郵更局"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Yuubinkyoku (kantor pos) adalah 郵便局."
+  },
+  {
+    q: "「さかな」が　好きです。",
+    q_romaji: "'sakana' ga suki desu.",
+    options: ["肉", "魚", "鳥", "牛"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Sakana (ikan) adalah 魚."
+  },
+  {
+    q: "「てがみ」を　書きます。",
+    q_romaji: "'tegami' o kakimasu.",
+    options: ["手紙", "上手", "下手", "切手"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Tegami (surat) adalah 手紙."
+  },
+  {
+    q: "「せんせい」に　聞きます。",
+    q_romaji: "'sensei' ni kikimasu.",
+    options: ["先生", "学生", "先住", "学住"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Sensei (guru) adalah 先生."
+  }
+];

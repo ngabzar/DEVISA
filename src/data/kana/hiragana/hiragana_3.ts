@@ -1,0 +1,24 @@
+import { Kana } from "../../../types";
+
+export const hiragana_3: Kana[] = [
+  { char: 'が', romaji: 'ga', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ぎ', romaji: 'gi', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ぐ', romaji: 'gu', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'げ', romaji: 'ge', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ご', romaji: 'go', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ざ', romaji: 'za', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'じ', romaji: 'ji', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ず', romaji: 'zu', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ぜ', romaji: 'ze', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ぞ', romaji: 'zo', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'だ', romaji: 'da', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ぢ', romaji: 'ji', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'づ', romaji: 'zu', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'で', romaji: 'de', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ど', romaji: 'do', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ば', romaji: 'ba', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'び', romaji: 'bi', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ぶ', romaji: 'bu', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'べ', romaji: 'be', type: 'HIRAGANA', group: 'DAKUON' },
+  { char: 'ぼ', romaji: 'bo', type: 'HIRAGANA', group: 'DAKUON' },
+];

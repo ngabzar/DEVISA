@@ -1,0 +1,59 @@
+
+import { Kanji } from "../../../types";
+
+export const kanjin2_2: Kanji[] = [
+  { 
+    char: '職', level: 'N2', onyomi: ['SHOKU'], kunyomi: ['-'], meaning: 'Pekerjaan', strokes: 18,
+    story: 'Telinga (耳) mendengarkan suara (音) dan memegang tombak (戈). Tugas/Pekerjaan.',
+    examples: [
+      { word: '職業', reading: 'Shokugyou', meaning: 'Pekerjaan / Profesi' },
+      { word: '就職', reading: 'Shuushoku', meaning: 'Mencari pekerjaan' },
+      { word: '職場', reading: 'Shokuba', meaning: 'Tempat kerja' }
+    ]
+  },
+  { 
+    char: '務', level: 'N2', onyomi: ['MU'], kunyomi: ['tsuto(meru)'], meaning: 'Tugas / Bekerja', strokes: 11,
+    story: 'Tombak (矛) dan kekuatan (力) digunakan untuk melakukan tugas.',
+    examples: [
+      { word: '事務所', reading: 'Jimusho', meaning: 'Kantor' },
+      { word: '公務員', reading: 'Koumuin', meaning: 'Pegawai negeri' },
+      { word: '義務', reading: 'Gimu', meaning: 'Kewajiban' }
+    ]
+  },
+  { 
+    char: '損', level: 'N2', onyomi: ['SON'], kunyomi: ['soko(nau)', 'son(suru)'], meaning: 'Rugi / Rusak', strokes: 13,
+    story: 'Tangan (扌) memegang pegawai (員) yang menyebabkan kerugian uang (implied).',
+    examples: [
+      { word: '損害', reading: 'Songai', meaning: 'Kerugian / Kerusakan' },
+      { word: '損', reading: 'Son', meaning: 'Rugi' },
+      { word: '破損', reading: 'Hason', meaning: 'Kerusakan (barang)' }
+    ]
+  },
+  { 
+    char: '得', level: 'N2', onyomi: ['TOKU'], kunyomi: ['e(ru)'], meaning: 'Mendapatkan / Keuntungan', strokes: 11,
+    story: 'Berjalan (彳) di pagi hari (旦) dan mengukur (寸) keuntungan.',
+    examples: [
+      { word: '得意', reading: 'Tokui', meaning: 'Mahir / Bangga' },
+      { word: '納得', reading: 'Nattoku', meaning: 'Persetujuan / Memahami' },
+      { word: '得る', reading: 'Eru', meaning: 'Mendapatkan / Memperoleh' }
+    ]
+  },
+  { 
+    char: '資', level: 'N2', onyomi: ['SHI'], kunyomi: ['-'], meaning: 'Aset / Sumber Daya', strokes: 13,
+    story: 'Uang (貝) berikutnya (次). Modal/Aset.',
+    examples: [
+      { word: '資源', reading: 'Shigen', meaning: 'Sumber daya' },
+      { word: '資料', reading: 'Shiryou', meaning: 'Data / Bahan dokumen' },
+      { word: '資格', reading: 'Shikaku', meaning: 'Kualifikasi' }
+    ]
+  },
+  { 
+    char: '金', level: 'N2', onyomi: ['KIN'], kunyomi: ['kane'], meaning: 'Uang / Emas (N5 review, N2 context)', strokes: 8,
+    story: 'Raja di bawah atap menyimpan emas.',
+    examples: [
+      { word: '現金', reading: 'Genkin', meaning: 'Uang tunai' },
+      { word: '料金', reading: 'Ryoukin', meaning: 'Biaya / Ongkos' },
+      { word: '税金', reading: 'Zeikin', meaning: 'Pajak' }
+    ]
+  }
+];

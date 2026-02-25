@@ -1,0 +1,47 @@
+import { Kanji } from "../../../types";
+
+export const kanjin5_10: Kanji[] = [
+  { 
+    char: '見', level: 'N5', onyomi: ['KEN'], kunyomi: ['mi(ru)'], meaning: 'Melihat', strokes: 7,
+    story: 'Mata (目) di atas kaki (儿), berjalan-jalan untuk melihat.',
+    examples: [
+        { word: '見る', reading: 'Miru', meaning: 'Melihat' },
+        { word: '見せる', reading: 'Miseru', meaning: 'Memperlihatkan' },
+        { word: '意見', reading: 'Iken', meaning: 'Pendapat' }
+    ]
+  },
+  { 
+    char: '聞', level: 'N5', onyomi: ['BUN', 'MON'], kunyomi: ['ki(ku)'], meaning: 'Mendengar', strokes: 14,
+    story: 'Telinga (耳) di antara pintu gerbang (門) untuk menguping/mendengar.',
+    examples: [
+        { word: '聞く', reading: 'Kiku', meaning: 'Mendengar' },
+        { word: '新聞', reading: 'Shinbun', meaning: 'Koran' }
+    ]
+  },
+  { 
+    char: '読', level: 'N5', onyomi: ['DOKU'], kunyomi: ['yo(mu)'], meaning: 'Membaca', strokes: 14,
+    story: 'Kata-kata (言) yang dijual (売) di buku untuk dibaca.',
+    examples: [
+        { word: '読む', reading: 'Yomu', meaning: 'Membaca' },
+        { word: '読書', reading: 'Dokusho', meaning: 'Membaca buku' }
+    ]
+  },
+  { 
+    char: '書', level: 'N5', onyomi: ['SHO'], kunyomi: ['ka(ku)'], meaning: 'Menulis', strokes: 10,
+    story: 'Tangan memegang kuas di atas kertas (日) untuk menulis.',
+    examples: [
+        { word: '書く', reading: 'Kaku', meaning: 'Menulis' },
+        { word: '辞書', reading: 'Jisho', meaning: 'Kamus' },
+        { word: '図書館', reading: 'Toshokan', meaning: 'Perpustakaan' }
+    ]
+  },
+  { 
+    char: '話', level: 'N5', onyomi: ['WA'], kunyomi: ['hana(su)'], meaning: 'Berbicara', strokes: 13,
+    story: 'Kata-kata (言) yang keluar dari lidah (舌) saat berbicara.',
+    examples: [
+        { word: '話す', reading: 'Hanasu', meaning: 'Berbicara' },
+        { word: '話', reading: 'Hanashi', meaning: 'Cerita/Pembicaraan' },
+        { word: '会話', reading: 'Kaiwa', meaning: 'Percakapan' }
+    ]
+  },
+];

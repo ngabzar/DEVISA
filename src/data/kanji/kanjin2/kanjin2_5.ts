@@ -1,0 +1,48 @@
+
+import { Kanji } from "../../../types";
+
+export const kanjin2_5: Kanji[] = [
+  { 
+    char: '良', level: 'N2', onyomi: ['RYOU'], kunyomi: ['yo(i)'], meaning: 'Baik', strokes: 7,
+    story: 'Titik putih (白) yang dimakan. Makanan yang BAIK.',
+    examples: [
+      { word: '良い', reading: 'Yoi', meaning: 'Baik / Bagus' },
+      { word: '良好', reading: 'Ryoukou', meaning: 'Baik / Memuaskan' },
+      { word: '良心', reading: 'Ryoushin', meaning: 'Hati nurani' }
+    ]
+  },
+  { 
+    char: '善', level: 'N2', onyomi: ['ZEN'], kunyomi: ['yo(i)'], meaning: 'Kebaikan / Moral', strokes: 12,
+    story: 'Domba (羊) yang berbicara (言) tentang kebenaran. Kebaikan moral.',
+    examples: [
+      { word: '改善', reading: 'Kaizen', meaning: 'Perbaikan / Improvement' },
+      { word: '善悪', reading: 'Zenaku', meaning: 'Baik dan buruk' }
+    ]
+  },
+  { 
+    char: '適', level: 'N2', onyomi: ['TEKI'], kunyomi: ['kana(u)'], meaning: 'Cocok / Sesuai', strokes: 14,
+    story: 'Berjalan (辶) menuju barang antik (啇) yang cocok.',
+    examples: [
+      { word: '適当', reading: 'Tekitou', meaning: 'Cocok / Sembarangan (tergantung konteks)' },
+      { word: '適切', reading: 'Tekisetsu', meaning: 'Tepat / Sesuai' },
+      { word: '快適', reading: 'Kaiteki', meaning: 'Nyaman' }
+    ]
+  },
+  { 
+    char: '精', level: 'N2', onyomi: ['SEI', 'SHOU'], kunyomi: ['-'], meaning: 'Semangat / Murni', strokes: 14,
+    story: 'Beras (米) yang berwarna biru/hijau (青) adalah murni. Energi.',
+    examples: [
+      { word: '精神', reading: 'Seishin', meaning: 'Mental / Jiwa' },
+      { word: '精一杯', reading: 'Seiippai', meaning: 'Sekuat tenaga' },
+      { word: '精密', reading: 'Seimitsu', meaning: 'Presisi' }
+    ]
+  },
+  { 
+    char: '純', level: 'N2', onyomi: ['JUN'], kunyomi: ['-'], meaning: 'Murni', strokes: 10,
+    story: 'Benang (糸) yang tumbuh dari bumi (屯). Murni.',
+    examples: [
+      { word: '純粋', reading: 'Junsui', meaning: 'Murni / Polos' },
+      { word: '単純', reading: 'Tanjun', meaning: 'Sederhana / Simpel' }
+    ]
+  }
+];

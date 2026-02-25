@@ -1,0 +1,6 @@
+
+import { Kanji } from "../../../types";
+
+export const kanjin3_9: Kanji[] = [
+  // Akan diisi lebih lanjut
+];

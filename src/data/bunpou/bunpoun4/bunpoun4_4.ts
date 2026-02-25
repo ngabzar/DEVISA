@@ -1,0 +1,39 @@
+import { Grammar } from "../../../types";
+
+export const bunpoun4_4: Grammar[] = [
+  { 
+    title: '~たら (Tara)', 
+    formula: 'KK(Bentuk Ta)/KS/KB + ら', 
+    explanation: 'Pengandaian umum "Kalau/Jika". Juga berarti "setelah".', 
+    example: '雨が降ったら、行きません (Kalau hujan turun, saya tidak pergi).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~ても/でも (Te mo / De mo)', 
+    formula: 'KK(Bentuk Te)/KS/KB + も', 
+    explanation: 'Walaupun / Meskipun.', 
+    example: '安くても、買いません (Walaupun murah, saya tidak akan beli).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~と (To) - Kondisional', 
+    formula: 'KK(Bentuk Kamus) + と', 
+    explanation: 'Jika A terjadi, maka B PASTI terjadi (konsekuensi alamiah/mesin).', 
+    example: 'このボタンを押すと、お釣りが出ます (Jika tombol ini ditekan, kembalian akan keluar).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~ば (Ba) - Bentuk Syarat', 
+    formula: 'Gol 1: u -> eba | Gol 2: ru -> reba | KS-i: i -> kereba', 
+    explanation: 'Pengandaian bersyarat "Asalkan/Jika".', 
+    example: '時間があれば、行きます (Jika ada waktu, saya akan pergi).', 
+    level: 'N4' 
+  },
+  { 
+    title: '~なら (Nara)', 
+    formula: 'KB/KS-Na + なら', 
+    explanation: 'Pengandaian kontekstual (Kalau topik itu...).', 
+    example: '温泉なら、箱根がいいですよ (Kalau soal pemandian air panas, Hakone bagus lho).', 
+    level: 'N4' 
+  }
+];

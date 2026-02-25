@@ -1,0 +1,52 @@
+import { Question } from "../../types";
+
+export const jlptn4_12: Question[] = [
+  {
+    q: "お金が　たくさん　＿＿＿、大きい　家を　買いたいです。",
+    options: ["あったら", "あると", "あれば", "あるなら"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Pengandaian umum (Kalau punya uang): 'Tara' adalah yang paling umum digunakan."
+  },
+  {
+    q: "いくら　＿＿＿、この　絵は　売りません。",
+    options: ["高くても", "高いと", "高ければ", "高いなら"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Meskipun/Walaupun: 'Te-mo'. 'Ikura takakutemo' (Berapapun mahalnya)."
+  },
+  {
+    q: "日本へ　行く＿＿＿、この　お土産を　買ってください。",
+    options: ["なら", "たら", "と", "ば"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Saran berdasarkan topik: 'Nara' (Kalau memang pergi ke Jepang)."
+  },
+  {
+    q: "この　ボタンを　＿＿＿、お釣りが出ます。",
+    options: ["押すと", "押したら", "押せば", "押すなら"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Konsekuensi pasti/otomatis (mesin): 'To'."
+  },
+  {
+    q: "この　薬を　飲め＿＿＿、よくなります。",
+    options: ["ば", "たら", "と", "なら"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Bentuk syarat: 'Ba'. Nomu -> Nomeba (Kalau/Asalkan minum)."
+  },
+  {
+    q: "急に　雨が　＿＿＿　始めました。",
+    options: ["降り", "降って", "降る", "降れ"],
+    correct: 0,
+    type: "JLPT_N4",
+    inputType: "CHOICE",
+    explanation: "Mulai melakukan: Masu-stem + hajimeru. Furimasu -> Furi-hajimemashita."
+  }
+];

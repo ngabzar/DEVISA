@@ -1,0 +1,60 @@
+import { Question } from "../../types";
+
+export const latihan_kalimat_4: Question[] = [
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Sekarang jam 3.\"",
+    correctAnswers: ["ima sanji desu", "ima san ji desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Ima = Sekarang. San-ji = Jam 3."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Jam 8:30 (setengah 9).\"",
+    correctAnswers: ["hachiji han", "hachi ji han", "hachiji sanjuppun"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Han = Setengah (30 menit)."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Bangun pada jam 6.\"",
+    correctAnswers: ["rokuji ni okimasu", "roku ji ni okimasu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Partikel 'ni' untuk waktu spesifik."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Hari ini hari Senin.\"",
+    correctAnswers: ["kyou wa getsuyoubi desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Getsuyoubi = Senin."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Indonesia:\n\"Nanji ni nemasu ka.\"",
+    correctAnswers: ["jam berapa tidur", "tidur jam berapa", "kamu tidur jam berapa"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Neru = Tidur."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Dari jam 9 sampai jam 5.\"",
+    correctAnswers: ["kuji kara goji made", "kuji kara goji made desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Kara (Dari) ... Made (Sampai)."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Besok hari apa?\"",
+    correctAnswers: ["ashita wa nanyoubi desu ka"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Nan-youbi = Hari apa."
+  },
+  {
+    q: "Terjemahkan ke Bahasa Jepang (Romaji):\n\"Libur hari Minggu.\"",
+    correctAnswers: ["yasumi wa nichiyoubi desu"],
+    type: "SENTENCE",
+    inputType: "ESSAY",
+    explanation: "Nichiyoubi = Minggu."
+  }
+];

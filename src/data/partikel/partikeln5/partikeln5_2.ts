@@ -1,0 +1,102 @@
+import { Particle } from "../../../types";
+
+export const partikeln5_2: Particle[] = [
+  { 
+    char: 'に (Ni)', 
+    usage: 'Titik Waktu', 
+    explanation: 'Digunakan untuk menunjukkan waktu spesifik terjadinya suatu kegiatan. Wajib digunakan untuk jam, tanggal, hari (opsional). Tidak digunakan untuk "hari ini", "besok", "pagi", dll.', 
+    example: '6時に起きます (Bangun pada jam 6).', 
+    level: 'N5',
+    examples: [
+      { japanese: '毎朝、６時に起きます。', romaji: 'Maiasa, rokuji ni okimasu.', meaning: 'Setiap pagi saya bangun jam 6.' },
+      { japanese: '日曜日にテニスをします。', romaji: 'Nichiyoubi ni tenisu o shimasu.', meaning: 'Saya bermain tenis pada hari Minggu.' },
+      { japanese: '１２月２５日にパーティーがあります。', romaji: 'Juunigatsu nijuugonichi ni pa-ti- ga arimasu.', meaning: 'Ada pesta pada tanggal 25 Desember.' },
+      { japanese: '３時に会いましょう。', romaji: 'Sanji ni aimashou.', meaning: 'Ayo bertemu jam 3.' },
+      { japanese: 'いつ日本に来ましたか。', romaji: 'Itsu Nihon ni kimashita ka.', meaning: 'Kapan kamu datang ke Jepang?' }
+    ]
+  },
+  { 
+    char: 'に (Ni)', 
+    usage: 'Keberadaan (Di)', 
+    explanation: 'Menunjukkan lokasi keberadaan benda mati (arimasu) atau makhluk hidup (imasu).', 
+    example: '教室に学生がいます (Di kelas ada siswa).', 
+    level: 'N5',
+    examples: [
+      { japanese: 'あそこにコンビニがあります。', romaji: 'Asoko ni konbini ga arimasu.', meaning: 'Di sana ada minimarket.' },
+      { japanese: '庭に犬がいます。', romaji: 'Niwa ni inu ga imasu.', meaning: 'Di halaman ada anjing.' },
+      { japanese: '机の上に本があります。', romaji: 'Tsukue no ue ni hon ga arimasu.', meaning: 'Di atas meja ada buku.' },
+      { japanese: '田中さんは事務所にいます。', romaji: 'Tanaka-san wa jimusho ni imasu.', meaning: 'Sdr. Tanaka ada di kantor.' },
+      { japanese: '冷蔵庫に卵があります。', romaji: 'Reizouko ni tamago ga arimasu.', meaning: 'Di kulkas ada telur.' }
+    ]
+  },
+  { 
+    char: 'に (Ni)', 
+    usage: 'Tujuan Pergerakan (Ke)', 
+    explanation: 'Menunjukkan tujuan dari perpindahan tempat. Bisa digantikan dengan "e".', 
+    example: '学校に行きます (Pergi ke sekolah).', 
+    level: 'N5',
+    examples: [
+      { japanese: '明日、東京に行きます。', romaji: 'Ashita, Toukyou ni ikimasu.', meaning: 'Besok saya pergi ke Tokyo.' },
+      { japanese: '家に来てください。', romaji: 'Uchi ni kite kudasai.', meaning: 'Silakan datang ke rumah saya.' },
+      { japanese: '国に帰ります。', romaji: 'Kuni ni kaerimasu.', meaning: 'Saya pulang ke negara asal.' },
+      { japanese: '買い物に行きます。', romaji: 'Kaimono ni ikimasu.', meaning: 'Pergi berbelanja.' },
+      { japanese: '山に登ります。', romaji: 'Yama ni noborimasu.', meaning: 'Mendaki gunung.' }
+    ]
+  },
+  { 
+    char: 'に (Ni)', 
+    usage: 'Sasaran (Kepada)', 
+    explanation: 'Menunjukkan penerima aksi atau orang yang kita tuju dalam suatu kegiatan.', 
+    example: '友達に電話をかけます (Menelepon teman).', 
+    level: 'N5',
+    examples: [
+      { japanese: '友達にプレゼントをあげます。', romaji: 'Tomodachi ni purezento o agemasu.', meaning: 'Memberikan kado kepada teman.' },
+      { japanese: '先生に聞きます。', romaji: 'Sensei ni kikimasu.', meaning: 'Bertanya kepada guru.' },
+      { japanese: '母に電話しました。', romaji: 'Haha ni denwa shimashita.', meaning: 'Menelepon ibu.' },
+      { japanese: '彼に会いたいです。', romaji: 'Kare ni aitai desu.', meaning: 'Saya ingin bertemu dia.' },
+      { japanese: '木村さんに本を借りました。', romaji: 'Kimura-san ni hon o karimashita.', meaning: 'Saya meminjam buku dari (kepada) Sdr. Kimura.' }
+    ]
+  },
+  { 
+    char: 'で (De)', 
+    usage: 'Tempat Aktivitas (Di)', 
+    explanation: 'Menunjukkan lokasi di mana suatu aksi/kegiatan dilakukan (bukan sekedar keberadaan).', 
+    example: '図書館で勉強します (Belajar di perpustakaan).', 
+    level: 'N5',
+    examples: [
+      { japanese: '駅で新聞を買いました。', romaji: 'Eki de shinbun o kaimashita.', meaning: 'Membeli koran di stasiun.' },
+      { japanese: 'レストランでご飯を食べます。', romaji: 'Resutoran de gohan o tabemasu.', meaning: 'Makan nasi di restoran.' },
+      { japanese: '部屋で寝ます。', romaji: 'Heya de nemasu.', meaning: 'Tidur di kamar.' },
+      { japanese: '海で泳ぎました。', romaji: 'Umi de oyogimashita.', meaning: 'Berenang di laut.' },
+      { japanese: 'どこで働いていますか。', romaji: 'Doko de hataraite imasu ka.', meaning: 'Bekerja di mana?' }
+    ]
+  },
+  { 
+    char: 'で (De)', 
+    usage: 'Alat / Cara', 
+    explanation: 'Menunjukkan sarana, alat, bahasa, atau cara yang digunakan untuk melakukan sesuatu.', 
+    example: 'バスで帰ります (Pulang dengan bus).', 
+    level: 'N5',
+    examples: [
+      { japanese: '箸で食べます。', romaji: 'Hashi de tabemasu.', meaning: 'Makan menggunakan sumpit.' },
+      { japanese: '日本語でレポートを書きました。', romaji: 'Nihongo de repo-to o kakimashita.', meaning: 'Menulis laporan dalam bahasa Jepang.' },
+      { japanese: '自転車で学校へ行きます。', romaji: 'Jitensha de gakkou e ikimasu.', meaning: 'Pergi ke sekolah naik sepeda.' },
+      { japanese: 'これは日本語で何ですか。', romaji: 'Kore wa Nihongo de nan desu ka.', meaning: 'Ini bahasa Jepangnya apa?' },
+      { japanese: 'クレジットカードで払えますか。', romaji: 'Kurejitto ka-do de haraemasu ka.', meaning: 'Bisakah membayar dengan kartu kredit?' }
+    ]
+  },
+  { 
+    char: 'へ (E)', 
+    usage: 'Arah Pergerakan', 
+    explanation: 'Menunjukkan arah tujuan. Mirip dengan "Ni", tetapi "E" lebih menekankan arah perjalanan.', 
+    example: '日本へ行きます (Pergi ke Jepang).', 
+    level: 'N5',
+    examples: [
+      { japanese: 'どこへ行きますか。', romaji: 'Doko e ikimasu ka.', meaning: 'Mau pergi ke mana?' },
+      { japanese: '京都へ旅行します。', romaji: 'Kyouto e ryokou shimasu.', meaning: 'Traveling ke Kyoto.' },
+      { japanese: '未来へ向かいます。', romaji: 'Mirai e mukaimasu.', meaning: 'Menuju ke masa depan.' },
+      { japanese: '右へ曲がってください。', romaji: 'Migi e magatte kudasai.', meaning: 'Tolong belok ke kanan.' },
+      { japanese: 'ようこそ日本へ。', romaji: 'Youkoso Nihon e.', meaning: 'Selamat datang di Jepang.' }
+    ]
+  }
+];

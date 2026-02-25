@@ -1,0 +1,44 @@
+import { Question } from "../../types";
+
+export const jftA2b_12: Question[] = [
+  {
+    q: "看板に　「立入禁止」と　書いて　あります。\nどういう　意味ですか。",
+    options: ["入ってはいけません", "入ってもいいです", "立ってください", "座ってください"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Tachiiri Kinshi = Dilarang Masuk (Haitte wa ikemasen)."
+  },
+  {
+    q: "「非常口」は　何ですか。",
+    options: ["逃げる　ところ", "入る　ところ", "休む　ところ", "遊ぶ　ところ"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Hijouguchi = Pintu Darurat (Tempat melarikan diri saat bahaya)."
+  },
+  {
+    q: "「禁煙」の　席では、タバコを　＿＿＿。",
+    options: ["吸ってはいけません", "吸ってもいいです", "吸ってください", "買ってください"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Kin-en = Dilarang merokok."
+  },
+  {
+    q: "「準備中」の　店には、まだ　＿＿＿。",
+    options: ["入れません", "入れます", "入ってください", "入りたいです"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Junbichuu = Sedang persiapan (Toko belum buka), jadi tidak bisa masuk."
+  },
+  {
+    q: "ごみを　捨てる　日は　「月・水・金」です。\n今日は　火曜日です。ごみを　＿＿＿。",
+    options: ["捨ててはいけません", "捨ててもいいです", "捨ててください", "捨てます"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Jadwal buang sampah Senin, Rabu, Jumat. Selasa tidak boleh."
+  }
+];

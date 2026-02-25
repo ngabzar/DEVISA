@@ -1,0 +1,9 @@
+import { Kana } from "../../../types";
+
+export const hiragana_4: Kana[] = [
+  { char: 'ぱ', romaji: 'pa', type: 'HIRAGANA', group: 'HANDAKUON' },
+  { char: 'ぴ', romaji: 'pi', type: 'HIRAGANA', group: 'HANDAKUON' },
+  { char: 'ぷ', romaji: 'pu', type: 'HIRAGANA', group: 'HANDAKUON' },
+  { char: 'ぺ', romaji: 'pe', type: 'HIRAGANA', group: 'HANDAKUON' },
+  { char: 'ぽ', romaji: 'po', type: 'HIRAGANA', group: 'HANDAKUON' },
+];

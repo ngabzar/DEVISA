@@ -1,0 +1,80 @@
+import { Kanji } from "../../../types";
+
+export const kanjin4_6: Kanji[] = [
+  { 
+    char: '英', level: 'N4', onyomi: ['EI'], kunyomi: ['-'], meaning: 'Inggris / Cemerlang', strokes: 8,
+    story: 'Bunga (艹) yang tumbuh di tengah (央). INGGRIS/CEMERLANG.',
+    examples: [
+      { word: '英語', reading: 'Eigo', meaning: 'Bahasa Inggris' },
+      { word: '英国', reading: 'Eikoku', meaning: 'Inggris Raya' }
+    ]
+  },
+  { 
+    char: '漢', level: 'N4', onyomi: ['KAN'], kunyomi: ['-'], meaning: 'China', strokes: 13,
+    story: 'Air (氵) dan tanah liat kering (革). Bangsa CHINA (Dinasti Han).',
+    examples: [
+      { word: '漢字', reading: 'Kanji', meaning: 'Huruf Kanji' },
+      { word: '漢方薬', reading: 'Kanpouyaku', meaning: 'Obat herbal China' }
+    ]
+  },
+  { 
+    char: '字', level: 'N4', onyomi: ['JI'], kunyomi: ['aza'], meaning: 'Huruf', strokes: 6,
+    story: 'Anak (子) belajar di rumah (宀). HURUF/KARAKTER.',
+    examples: [
+      { word: '漢字', reading: 'Kanji', meaning: 'Huruf Kanji' },
+      { word: '文字', reading: 'Moji', meaning: 'Huruf' },
+      { word: 'ローマ字', reading: 'Romaji', meaning: 'Huruf Latin' }
+    ]
+  },
+  { 
+    char: '文', level: 'N4', onyomi: ['BUN', 'MON'], kunyomi: ['fumi'], meaning: 'Kalimat / Sastra', strokes: 4,
+    story: 'Gambar orang dengan tato di dada. Pola/KALIMAT/SASTRA.',
+    examples: [
+      { word: '文学', reading: 'Bungaku', meaning: 'Sastra' },
+      { word: '作文', reading: 'Sakubun', meaning: 'Karangan' },
+      { word: '文法', reading: 'Bunpou', meaning: 'Tata bahasa' }
+    ]
+  },
+  { 
+    char: '教', level: 'N4', onyomi: ['KYOU'], kunyomi: ['oshi(eru)'], meaning: 'Mengajar', strokes: 11,
+    story: 'Orang tua memukul anak (攵) supaya berbakti (孝) dan belajar. MENGAJAR.',
+    examples: [
+      { word: '教える', reading: 'Oshieru', meaning: 'Mengajar' },
+      { word: '教室', reading: 'Kyoushitsu', meaning: 'Kelas' },
+      { word: '教会', reading: 'Kyoukai', meaning: 'Gereja' }
+    ]
+  },
+  { 
+    char: '習', level: 'N4', onyomi: ['SHUU'], kunyomi: ['nara(u)'], meaning: 'Belajar', strokes: 11,
+    story: 'Burung mengepakkan sayap (羽) yang putih (白) berulang kali. BELAJAR/LATIHAN.',
+    examples: [
+      { word: '習う', reading: 'Narau', meaning: 'Belajar (keterampilan)' },
+      { word: '練習', reading: 'Renshuu', meaning: 'Latihan' },
+      { word: '復習', reading: 'Fukushuu', meaning: 'Mengulang pelajaran' }
+    ]
+  },
+  { 
+    char: '勉', level: 'N4', onyomi: ['BEN'], kunyomi: ['tsuto(meru)'], meaning: 'Usaha', strokes: 10,
+    story: 'Menggunakan kekuatan (力) untuk lepas (免) dari kebodohan. BELAJAR GIAT.',
+    examples: [
+      { word: '勉強', reading: 'Benkyou', meaning: 'Belajar' },
+      { word: '勤勉', reading: 'Kinben', meaning: 'Rajin' }
+    ]
+  },
+  { 
+    char: '強', level: 'N4', onyomi: ['KYOU'], kunyomi: ['tsuyo(i)'], meaning: 'Kuat', strokes: 11,
+    story: 'Busur (弓) dan serangga (ム) yang tangguh. KUAT.',
+    examples: [
+      { word: '強い', reading: 'Tsuyoi', meaning: 'Kuat' },
+      { word: '勉強', reading: 'Benkyou', meaning: 'Belajar' }
+    ]
+  },
+  { 
+    char: '研', level: 'N4', onyomi: ['KEN'], kunyomi: ['to(gu)'], meaning: 'Mengasah / Riset', strokes: 9,
+    story: 'Batu (石) untuk mengasah dua tangan (开). MENGASAH/RISET.',
+    examples: [
+      { word: '研究', reading: 'Kenkyuu', meaning: 'Penelitian' },
+      { word: '研究者', reading: 'Kenkyuusha', meaning: 'Peneliti' }
+    ]
+  },
+];

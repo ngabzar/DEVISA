@@ -1,0 +1,50 @@
+import { Kanji } from "../../../types";
+
+export const kanjin5_17: Kanji[] = [
+  { 
+    char: '大', level: 'N5', onyomi: ['DAI', 'TAI'], kunyomi: ['oo(kii)'], meaning: 'Besar', strokes: 3,
+    story: 'Orang (人) yang merentangkan tangan selebar mungkin (BESAR).',
+    examples: [
+      { word: '大きい', reading: 'Ookii', meaning: 'Besar' },
+      { word: '大学', reading: 'Daigaku', meaning: 'Universitas' },
+      { word: '大人', reading: 'Otona', meaning: 'Dewasa' },
+      { word: '大好き', reading: 'Daisuki', meaning: 'Sangat suka' }
+    ]
+  },
+  { 
+    char: '小', level: 'N5', onyomi: ['SHOU'], kunyomi: ['chii(sai)'], meaning: 'Kecil', strokes: 3,
+    story: 'Membagi sesuatu menjadi bagian-bagian KECIL.',
+    examples: [
+      { word: '小さい', reading: 'Chiisai', meaning: 'Kecil' },
+      { word: '小学校', reading: 'Shougakkou', meaning: 'SD' },
+      { word: '小川', reading: 'Ogawa', meaning: 'Sungai kecil' }
+    ]
+  },
+  { 
+    char: '高', level: 'N5', onyomi: ['KOU'], kunyomi: ['taka(i)'], meaning: 'Tinggi / Mahal', strokes: 10,
+    story: 'Bangunan menara yang TINGGI dengan jendela dan atap.',
+    examples: [
+      { word: '高い', reading: 'Takai', meaning: 'Tinggi/Mahal' },
+      { word: '高校', reading: 'Koukou', meaning: 'SMA' },
+      { word: '高速', reading: 'Kousoku', meaning: 'Kecepatan tinggi' }
+    ]
+  },
+  { 
+    char: '安', level: 'N5', onyomi: ['AN'], kunyomi: ['yasu(i)'], meaning: 'Murah / Tenang', strokes: 6,
+    story: 'Wanita (女) di dalam rumah (宀) merasa AMAN dan TENANG.',
+    examples: [
+      { word: '安い', reading: 'Yasui', meaning: 'Murah' },
+      { word: '安全', reading: 'Anzen', meaning: 'Aman' },
+      { word: '安心', reading: 'Anshin', meaning: 'Lega/Tenang' }
+    ]
+  },
+  { 
+    char: '新', level: 'N5', onyomi: ['SHIN'], kunyomi: ['atara(shii)'], meaning: 'Baru', strokes: 13,
+    story: 'Pohon (木) yang ditebang dengan kapak (斤) untuk membuat barang BARU.',
+    examples: [
+      { word: '新しい', reading: 'Atarashii', meaning: 'Baru' },
+      { word: '新聞', reading: 'Shinbun', meaning: 'Koran' },
+      { word: '新年', reading: 'Shinnen', meaning: 'Tahun baru' }
+    ]
+  },
+];

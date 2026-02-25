@@ -1,0 +1,46 @@
+import { Particle } from "../../../types";
+
+export const partikeln4_5: Particle[] = [
+  { 
+    char: 'が (Ga)', 
+    usage: 'Tetapi (Formal)', 
+    explanation: 'Partikel penyambung kalimat yang menyatakan pertentangan "Tetapi". Lebih formal dari "kedo".', 
+    example: '行きましたが、閉まっていました (Saya sudah pergi, tapi tutup).', 
+    level: 'N4',
+    examples: [
+      { japanese: '薬を飲みましたが、熱が下がりません。', romaji: 'Kusuri o nomimashita ga, netsu ga sagarimasen.', meaning: 'Sudah minum obat, tapi demam tidak turun.' },
+      { japanese: 'すみませんが、手伝ってください。', romaji: 'Sumimasen ga, tetsudatte kudasai.', meaning: 'Maaf, tapi tolong bantu saya (pembuka percakapan).' },
+      { japanese: '日本の食べ物は美味しいですが、高いです。', romaji: 'Nihon no tabemono wa oishii desu ga, takai desu.', meaning: 'Makanan Jepang enak, tapi mahal.' },
+      { japanese: '探しましたが見つかりませんでした。', romaji: 'Sagashimashita ga mitsukarimasen deshita.', meaning: 'Sudah dicari tapi tidak ketemu.' },
+      { japanese: '行きたいですが、時間がありません。', romaji: 'Ikitai desu ga, jikan ga arimasen.', meaning: 'Saya ingin pergi, tapi tidak ada waktu.' }
+    ]
+  },
+  { 
+    char: 'けど (Kedo)', 
+    usage: 'Tetapi (Kasual)', 
+    explanation: 'Sama seperti "ga" (tetapi), namun digunakan dalam percakapan sehari-hari yang lebih santai.', 
+    example: '美味しいけど、高いです (Enak sih, tapi mahal).', 
+    level: 'N4',
+    examples: [
+      { japanese: '元気だけど、忙しいです。', romaji: 'Genki dakedo, isogashii desu.', meaning: 'Sehat sih, tapi sibuk.' },
+      { japanese: '雨が降っているけど、行きます。', romaji: 'Ame ga futte iru kedo, ikimasu.', meaning: 'Hujan turun, tapi saya akan pergi.' },
+      { japanese: 'これ、欲しいけどお金がない。', romaji: 'Kore, hoshii kedo okane ga nai.', meaning: 'Aku mau ini, tapi nggak ada uang.' },
+      { japanese: '昨日は楽しかったけど、疲れました。', romaji: 'Kinou wa tanoshikatta kedo, tsukaremashita.', meaning: 'Kemarin menyenangkan sih, tapi capek.' },
+      { japanese: 'もしもし、田中ですけど...。', romaji: 'Moshimoshi, Tanaka desu kedo...', meaning: 'Halo, ini Tanaka... (membiarkan kalimat gantung agar sopan).' }
+    ]
+  },
+  { 
+    char: 'のに (Noni)', 
+    usage: 'Padahal / Meskipun', 
+    explanation: 'Menyatakan pertentangan dengan nuansa kekecewaan, kaget, atau protes karena hasil tidak sesuai harapan.', 
+    example: '勉強したのに、不合格でした (Padahal sudah belajar, tapi tidak lulus).', 
+    level: 'N4',
+    examples: [
+      { japanese: '日曜日なのに、働かなければなりません。', romaji: 'Nichiyoubi nanoni, hatarakanakereba narimasen.', meaning: 'Padahal hari Minggu, tapi harus bekerja.' },
+      { japanese: '薬を飲んだのに、治りません。', romaji: 'Kusuri o nonda noni, naorimasen.', meaning: 'Padahal sudah minum obat, tapi tidak sembuh.' },
+      { japanese: '約束したのに、彼が来ませんでした。', romaji: 'Yakusoku shita noni, kare ga kimasen deshita.', meaning: 'Padahal sudah janji, dia tidak datang.' },
+      { japanese: '高いのに、美味しくないです。', romaji: 'Takai noni, oishiku nai desu.', meaning: 'Padahal mahal, tapi tidak enak.' },
+      { japanese: 'もう４月なのに、寒いです。', romaji: 'Mou shigatsu nanoni, samui desu.', meaning: 'Padahal sudah bulan April, tapi dingin.' }
+    ]
+  }
+];

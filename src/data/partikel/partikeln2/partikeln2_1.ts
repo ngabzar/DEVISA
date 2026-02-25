@@ -1,0 +1,41 @@
+
+import { Particle } from "../../../types";
+
+export const partikeln2_1: Particle[] = [
+  { 
+    char: 'につき (Ni tsuki)', 
+    usage: 'Dikarenakan / Per', 
+    explanation: '[Rumus: KB + につき] 1. Menyatakan alasan dalam konteks formal (pemberitahuan tertulis). 2. Menyatakan rasio (per orang/per item).', 
+    example: '工事中につき、立ち入り禁止 (Dilarang masuk dikarenakan sedang ada konstruksi).', 
+    level: 'N2',
+    examples: [
+      { japanese: '本日は定休日につき、お休みさせていただきます。', romaji: 'Honjitsu wa teikyuubi ni tsuki, oyasumi sasete itadakimasu.', meaning: 'Dikarenakan hari ini hari libur reguler, kami tutup.' },
+      { japanese: '冷房中につき、ドアを閉めてください。', romaji: 'Reibouchuu ni tsuki, doa o shimete kudasai.', meaning: 'Dikarenakan ber-AC, tolong tutup pintunya.' },
+      { japanese: '手数料は１回につき２００円です。', romaji: 'Tesuurjou wa ikkai ni tsuki nihyakuen desu.', meaning: 'Biaya admin adalah 200 yen per satu kali transaksi.' }
+    ]
+  },
+  { 
+    char: 'に応えて (Ni kotaete)', 
+    usage: 'Menjawab / Memenuhi', 
+    explanation: '[Rumus: KB + に応えて] Melakukan sesuatu sebagai respon terhadap harapan, permintaan, atau tuntutan orang lain.', 
+    example: 'アンコールに応えて、もう１曲歌った (Menyanyikan satu lagu lagi untuk menjawab permintaan encore).', 
+    level: 'N2',
+    examples: [
+      { japanese: '学生の希望に応えて、図書館の開館時間を延長した。', romaji: 'Gakusei no kibou ni kotaete, toshokan no kaikan jikan o enchou shita.', meaning: 'Menjawab harapan siswa, jam buka perpustakaan diperpanjang.' },
+      { japanese: '親の期待に応えて、医者になった。', romaji: 'Oya no kitai ni kotaete, isha ni natta.', meaning: 'Menjadi dokter demi memenuhi harapan orang tua.' },
+      { japanese: '時代の要請に応えて、新しい法律が作られた。', romaji: 'Jidai no yousei ni kotaete, atarashii houritsu ga tsukurareta.', meaning: 'Hukum baru dibuat untuk menjawab tuntutan zaman.' }
+    ]
+  },
+  { 
+    char: 'をこめて (O komete)', 
+    usage: 'Dengan Sepenuh (Perasaan)', 
+    explanation: '[Rumus: KB + をこめて] Melakukan sesuatu dengan memasukkan perasaan (cinta, doa, harapan) yang mendalam.', 
+    example: '愛をこめて、手紙を書きました (Saya menulis surat dengan penuh cinta).', 
+    level: 'N2',
+    examples: [
+      { japanese: '感謝の気持ちをこめて、花束を贈ります。', romaji: 'Kansha no kimochi o komete, hanataba o okurimasu.', meaning: 'Saya mengirimkan buket bunga dengan penuh rasa terima kasih.' },
+      { japanese: '平和への祈りをこめて、千羽鶴を折った。', romaji: 'Heiwa e no inori o komete, senbazuru o otta.', meaning: 'Melipat seribu bangau kertas dengan penuh doa untuk perdamaian.' },
+      { japanese: '心をこめて歌います。', romaji: 'Kokoro o komete utaimasu.', meaning: 'Saya akan menyanyi dengan segenap hati.' }
+    ]
+  }
+];

@@ -1,0 +1,60 @@
+
+import { Grammar } from "../../../types";
+
+export const bunpoun2_3: Grammar[] = [
+  { 
+    title: '~に限る (Ni kagiru)', 
+    formula: 'KB / KK(Kamus) / KK(Nai) + に限る', 
+    explanation: 'Hanya... yang terbaik (Pendapat subjektif yang kuat).', 
+    level: 'N2',
+    examples: [
+      { japanese: '疲れたときは、お風呂に入るに限る。', romaji: 'Tsukareta toki wa, ofuro ni hairu ni kagiru.', meaning: 'Saat lelah, yang terbaik adalah mandi berendam.' },
+      { japanese: '風邪を引いたときは、寝るに限る。', romaji: 'Kaze o hiita toki wa, neru ni kagiru.', meaning: 'Saat masuk angin, tidur adalah yang terbaik.' },
+      { japanese: '夏はやっぱりビールに限るね。', romaji: 'Natsu wa yappari biiru ni kagiru ne.', meaning: 'Musim panas itu memang paling enak minum bir.' }
+    ]
+  },
+  { 
+    title: '~に限り (Ni kagiri)', 
+    formula: 'KB + に限り', 
+    explanation: 'Khusus hanya untuk... (Bahasa tulisan/formal, sering di pengumuman).', 
+    level: 'N2',
+    examples: [
+      { japanese: '本日ご来店のお客様に限り、全品20％オフ。', romaji: 'Honjitsu goraiten no okyakusama ni kagiri, zenhin 20% ofu.', meaning: 'Khusus pelanggan yang datang hari ini, semua barang diskon 20%.' },
+      { japanese: '女性に限り、デザートサービス。', romaji: 'Josei ni kagiri, dezaato saabisu.', meaning: 'Khusus wanita, gratis hidangan penutup.' },
+      { japanese: '先着50名様に限り、プレゼントがあります。', romaji: 'Senchaku 50-mei-sama ni kagiri, purezento ga arimasu.', meaning: 'Khusus untuk 50 orang pertama, ada hadiah.' }
+    ]
+  },
+  { 
+    title: '~に限って (Ni kagitte)', 
+    formula: 'KB + に限って', 
+    explanation: 'Justru saat... (terjadi hal buruk). Atau "Khusus dia (tidak mungkin begitu)".', 
+    level: 'N2',
+    examples: [
+      { japanese: '急いでいるときに限って、バスが来ない。', romaji: 'Isoide iru toki ni kagitte, basu ga konai.', meaning: 'Justru saat sedang buru-buru, bus tidak datang.' },
+      { japanese: '傘を持っていない日に限って、雨が降る。', romaji: 'Kasa o motte inai hi ni kagitte, ame ga furu.', meaning: 'Justru di hari tidak bawa payung, hujan turun.' },
+      { japanese: 'あの山田さんに限って、嘘をつくはずがない。', romaji: 'Ano Yamada-san ni kagitte, uso o tsuku hazu ga nai.', meaning: 'Khusus Yamada (yang jujur itu), tidak mungkin berbohong.' }
+    ]
+  },
+  { 
+    title: '~に限らず (Ni kagirazu)', 
+    formula: 'KB + に限らず', 
+    explanation: 'Tidak terbatas pada... (tapi juga yang lain/lingkup lebih luas).', 
+    level: 'N2',
+    examples: [
+      { japanese: 'このアニメは子供に限らず、大人にも人気がある。', romaji: 'Kono anime wa kodomo ni kagirazu, otona ni mo ninki ga aru.', meaning: 'Anime ini tidak hanya terbatas pada anak-anak, tapi juga populer di kalangan dewasa.' },
+      { japanese: '平日に限らず、週末も店は混んでいる。', romaji: 'Heijitsu ni kagirazu, shuumatsu mo mise wa konde iru.', meaning: 'Tidak hanya hari biasa, akhir pekan pun tokonya ramai.' },
+      { japanese: 'このスポーツは男性に限らず、女性も楽しめる。', romaji: 'Kono supootsu wa dansei ni kagirazu, josei mo tanoshimeru.', meaning: 'Olahraga ini tidak hanya untuk pria, wanita juga bisa menikmatinya.' }
+    ]
+  },
+  { 
+    title: '~のみならず (Nomi narazu)', 
+    formula: 'Bentuk Biasa / KB + のみならず', 
+    explanation: 'Bukan hanya... (tetapi juga). Lebih formal dari "dake de naku".', 
+    level: 'N2',
+    examples: [
+      { japanese: 'この映画は日本のみならず、世界中でヒットした。', romaji: 'Kono eiga wa Nihon nomi narazu, sekaijuu de hitto shita.', meaning: 'Film ini hit tidak hanya di Jepang, tapi juga di seluruh dunia.' },
+      { japanese: '彼は英語のみならず、中国語も話せる。', romaji: 'Kare wa Eigo nomi narazu, Chuugokugo mo hanaseru.', meaning: 'Dia tidak hanya bisa bahasa Inggris, tapi juga bahasa Mandarin.' },
+      { japanese: '環境問題は、一国のみならず地球全体の問題だ。', romaji: 'Kankyou mondai wa, ikkoku nomi narazu chikyuu zentai no mondai da.', meaning: 'Masalah lingkungan bukan hanya masalah satu negara, tapi masalah seluruh bumi.' }
+    ]
+  }
+];

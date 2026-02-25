@@ -1,0 +1,13 @@
+import { Kanji } from "../../../types";
+
+export const kanjin4_13: Kanji[] = [
+  { char: '朝', level: 'N4', onyomi: ['CHOU'], kunyomi: ['asa'], meaning: 'Pagi', strokes: 12 },
+  { char: '昼', level: 'N4', onyomi: ['CHUU'], kunyomi: ['hiru'], meaning: 'Siang', strokes: 9 },
+  { char: '夕', level: 'N4', onyomi: ['SEKI'], kunyomi: ['yuu'], meaning: 'Sore', strokes: 3 },
+  { char: '夜', level: 'N4', onyomi: ['YA'], kunyomi: ['yoru'], meaning: 'Malam', strokes: 8 },
+  { char: '晩', level: 'N4', onyomi: ['BAN'], kunyomi: ['-'], meaning: 'Malam', strokes: 12 },
+  { char: '曜', level: 'N4', onyomi: ['YOU'], kunyomi: ['-'], meaning: 'Hari (Mingguan)', strokes: 18 },
+  { char: '始', level: 'N4', onyomi: ['SHI'], kunyomi: ['haji(meru)'], meaning: 'Mulai', strokes: 8 },
+  { char: '終', level: 'N4', onyomi: ['SHUU'], kunyomi: ['o(waru)'], meaning: 'Selesai', strokes: 11 },
+  { char: '週', level: 'N4', onyomi: ['SHUU'], kunyomi: ['-'], meaning: 'Minggu', strokes: 11 },
+];

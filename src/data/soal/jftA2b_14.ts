@@ -1,0 +1,44 @@
+import { Question } from "../../types";
+
+export const jftA2b_14: Question[] = [
+  {
+    q: "【日記】\n今日は　日曜日でした。朝　起きてから、洗濯を　しました。\n午後は　友達と　買い物に　行きました。\n\n質問：午後は　何を　しましたか。",
+    options: ["買い物", "洗濯", "掃除", "勉強"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Teks: 'Gogo wa... kaimono ni ikimashita'."
+  },
+  {
+    q: "【薬の袋】\n１日　３回\n毎食後\n\n質問：いつ　薬を　飲みますか。",
+    options: ["ご飯を　食べた　あと", "ご飯を　食べる　まえ", "寝る　まえ", "起きた　あと"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Maishokugo = Setiap selesai makan (Gohan o tabeta ato)."
+  },
+  {
+    q: "【パーティーの案内】\n時間：１８：００〜２０：００\n場所：さくらホール\n会費：１０００円\n\n質問：お金は　いくら　かかりますか。",
+    options: ["１０００円", "１８００円", "２０００円", "０円"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Kaihi (Biaya) = 1000 yen."
+  },
+  {
+    q: "【注意】\nこの　エレベーターは　点検のため　使えません。\n階段を　ご利用ください。\n\n質問：どうやって　上がりますか。",
+    options: ["階段で", "エレベーターで", "エスカレーターで", "バスで"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "Lift tidak bisa dipakai, gunakan Kaidan (Tangga)."
+  },
+  {
+    q: "【募集】\nアルバイト募集\n時給：９５０円\n時間：１７時から　２２時まで\n\n質問：５時間　働きます。いくら　もらえますか。",
+    options: ["４７５０円", "９５０円", "５０００円", "１７００円"],
+    correct: 0,
+    type: "JFT_A2",
+    inputType: "CHOICE",
+    explanation: "950 x 5 = 4750."
+  }
+];

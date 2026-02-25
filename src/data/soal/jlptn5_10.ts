@@ -1,0 +1,52 @@
+import { Question } from "../../types";
+
+export const jlptn5_10: Question[] = [
+  {
+    q: "わたしは　あね＿＿＿　いもうとが　います。",
+    options: ["と", "も", "に", "や"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Menyebutkan daftar lengkap (kakak DAN adik): partikel 'to'."
+  },
+  {
+    q: "この　ぺんは　わたし＿＿＿です。",
+    options: ["の", "に", "を", "で"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Menyatakan kepemilikan: Watashi no desu (milik saya)."
+  },
+  {
+    q: "せんしゅう、きょうと＿＿＿　ならへ　いきました。",
+    options: ["から", "まで", "に", "で"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Pergi DARI Kyoto KE Nara. 'Kyoto kara Nara e'."
+  },
+  {
+    q: "この　にもつを　わたし＿＿＿　へやに　はこんでください。",
+    options: ["の", "が", "を", "も"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kamar SAYA. Kepemilikan menggunakan 'no'."
+  },
+  {
+    q: "きのうは　あめでした。きょう＿＿＿　あめです。",
+    options: ["も", "は", "が", "と"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kemarin hujan. Hari ini JUGA hujan. Partikel 'mo'."
+  },
+  {
+    q: "うち＿＿＿　えきまで　あるいて　５ふんです。",
+    options: ["から", "まで", "に", "で"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "DARI rumah SAMPAI stasiun. 'Uchi kara eki made'."
+  }
+];

@@ -1,0 +1,32 @@
+
+import { Particle } from "../../../types";
+
+export const partikeln3_2: Particle[] = [
+  { 
+    char: 'ほど (Hodo)', 
+    usage: 'Sejauh / Sampai-sampai / Tidak se...', 
+    explanation: 'Menunjukkan tingkat yang ekstrem, atau perbandingan negatif (tidak se...).', 
+    example: '死ぬほど疲れました (Lelah sampai rasanya mau mati).', 
+    level: 'N3',
+    examples: [
+      { japanese: '今年の夏は去年ほど暑くない。', romaji: 'Kotoshi no natsu wa kyonen hodo atsuku nai.', meaning: 'Musim panas tahun ini tidak sepanas tahun lalu.' },
+      { japanese: '言葉にできないほど美しい景色だ。', romaji: 'Kotoba ni dekinai hodo utsukushii keshiki da.', meaning: 'Pemandangan yang indahnya tak terlukiskan kata-kata.' },
+      { japanese: '若い人ほどよく眠る。', romaji: 'Wakai hito hodo yoku nemuru.', meaning: 'Semakin muda, semakin banyak tidurnya (Orang muda tidur lebih banyak).' },
+      { japanese: '早ければ早いほどいいです。', romaji: 'Hayakereba hayai hodo ii desu.', meaning: 'Semakin cepat semakin baik.' },
+      { japanese: 'これほど面白い本は読んだことがない。', romaji: 'Kore hodo omoshiroi hon wa yonda koto ga nai.', meaning: 'Saya belum pernah membaca buku semenarik ini.' }
+    ]
+  },
+  { 
+    char: 'くらい / ぐらい (Kurai/Gurai)', 
+    usage: 'Kira-kira / Setidaknya / Sampai', 
+    explanation: 'Menunjukkan perkiraan, tingkat ringan (meremehkan), atau derajat.', 
+    example: 'お茶ぐらい飲んでいってください (Minumlah teh setidaknya / mampir sebentar).', 
+    level: 'N3',
+    examples: [
+      { japanese: '簡単な挨拶くらいなら言えます。', romaji: 'Kantan na aisatsu kurai nara iemasu.', meaning: 'Kalau sekadar salam sederhana, saya bisa.' },
+      { japanese: '疲れて、一歩も歩けないくらいだ。', romaji: 'Tsukarete, ippo mo arukenai kurai da.', meaning: 'Lelah sampai-sampai selangkah pun tak bisa jalan.' },
+      { japanese: 'どのくらい日本にいますか。', romaji: 'Dono kurai Nihon ni imasu ka.', meaning: 'Berapa lama Anda berada di Jepang?' },
+      { japanese: '忙しくても、電話ぐらいしてください。', romaji: 'Isogashikutemo, denwa gurai shite kudasai.', meaning: 'Sesibuk apapun, setidaknya teleponlah.' }
+    ]
+  }
+];

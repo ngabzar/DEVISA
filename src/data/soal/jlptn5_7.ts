@@ -1,0 +1,52 @@
+import { Question } from "../../types";
+
+export const jlptn5_7: Question[] = [
+  {
+    q: "この　スープは　すこし　「あまい」です。",
+    options: ["さとうのような　あじです", "しおのような　あじです", "からいです", "にがいです"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Amai (Manis) = Rasa seperti gula (Satou no you na aji)."
+  },
+  {
+    q: "この　シャツは　「じょうぶ」ですね。",
+    options: ["こわれにくい", "こわれやすい", "やわらかい", "かたい"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Joubu (Kuat/Awet) = Kowarenikui (Tidak mudah rusak)."
+  },
+  {
+    q: "「たいてい」　朝ごはんを　食べます。",
+    options: ["いつも", "ときどき", "あまり", "ぜんぜん"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Taitei (Biasanya) paling dekat artinya dengan Itsumo (Selalu)."
+  },
+  {
+    q: "部屋が　「きたない」です。",
+    options: ["きれいじゃない", "しずかじゃない", "あかるくない", "ひろくない"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Kitanai (Kotor) = Kirei ja nai (Tidak bersih)."
+  },
+  {
+    q: "「つまらない」映画でした。",
+    options: ["おもしろくない", "おもしろい", "こわい", "たのしい"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Tsumaranai (Membosankan) = Omoshirokunai (Tidak menarik)."
+  },
+  {
+    q: "あした、いっしょに　「さんぽしませんか」。",
+    options: ["あるきませんか", "はしりませんか", "やすみませんか", "およぎませんか"],
+    correct: 0,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Sanpo shimasu (Jalan-jalan) pada dasarnya adalah Arukimasu (Berjalan)."
+  }
+];

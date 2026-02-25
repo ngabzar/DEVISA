@@ -1,0 +1,28 @@
+import { Question } from "../../types";
+
+export const jlptn5_16: Question[] = [
+  {
+    q: "【読解】\nわたしは　マリアです。きのう、ともだちの　キムさんと　えいがを　みました。\nえいがは　とても　おもしろかったです。えいがの　あとで、しょくじを　しました。\n\n質問：マリアさんは　きのう　だれと　しょくじを　しましたか。",
+    options: ["ひとりで", "キムさんと", "かぞくと", "せんせいと"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Dia menonton film dengan Kim-san, lalu makan setelahnya. Implikasinya adalah makan bersama Kim-san."
+  },
+  {
+    q: "【読解】\nわたしの　へやに　つくえと　いすが　あります。\nつくえの　うえに　ほんが　あります。いすの　したに　ねこが　います。\n\n質問：ねこは　どこに　いますか。",
+    options: ["つくえの　うえ", "いすの　した", "ほんの　なか", "へやの　そと"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Teks menyatakan 'isu no shita ni neko ga imasu' (di bawah kursi ada kucing)."
+  },
+  {
+    q: "【読解】\nきょうは　わたしの　たんじょうびです。ははは　ケーキを　つくりました。\nちちは　あたらしい　くつを　くれました。\n\n質問：だれが　ケーキを　つくりましたか。",
+    options: ["わたし", "はは", "ちち", "ともだち"],
+    correct: 1,
+    type: "JLPT_N5",
+    inputType: "CHOICE",
+    explanation: "Teks menyatakan 'haha wa keeki o tsukurimashita' (Ibu membuat kue)."
+  }
+];

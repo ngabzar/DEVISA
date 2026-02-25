@@ -1,0 +1,60 @@
+
+import { Grammar } from "../../../types";
+
+export const bunpoun2_1: Grammar[] = [
+  { 
+    title: '~最中に (Saichuu ni)', 
+    formula: 'KBの / KK(Te-iru) + 最中に', 
+    explanation: 'Tepat di tengah-tengah melakukan sesuatu, terjadi hal lain (biasanya hal yang mengganggu atau tidak diharapkan).', 
+    level: 'N2',
+    examples: [
+      { japanese: '会議の最中に、携帯電話が鳴ってしまった。', romaji: 'Kaigi no saichuu ni, keitai denwa ga natte shimatta.', meaning: 'Di tengah-tengah rapat, HP saya berbunyi.' },
+      { japanese: 'シャワーを浴びている最中に、客が来た。', romaji: 'Shawaa o abite iru saichuu ni, kyaku ga kita.', meaning: 'Tepat saat sedang mandi, tamu datang.' },
+      { japanese: 'スピーチの最中に、マイクが故障した。', romaji: 'Supiichi no saichuu ni, maiku ga koshou shita.', meaning: 'Di tengah pidato, mikrofonnya rusak.' }
+    ]
+  },
+  { 
+    title: '~うちに (Uchi ni) [N2 Nuance]', 
+    formula: 'KK(Nai/Te-iru) / KS-i / KS-na + うちに', 
+    explanation: 'Melakukan sesuatu selagi keadaan belum berubah. Nuansa N2: Jika tidak dilakukan sekarang, kesempatan akan hilang atau menjadi sulit.', 
+    level: 'N2',
+    examples: [
+      { japanese: '忘れないうちに、メモしておこう。', romaji: 'Wasurenai uchi ni, memo shite okou.', meaning: 'Selagi belum lupa, ayo dicatat dulu.' },
+      { japanese: '桜がきれいなうちに、花見に行きたい。', romaji: 'Sakura ga kirei na uchi ni, hanami ni ikitai.', meaning: 'Selagi sakura masih cantik, saya ingin pergi melihat bunga.' },
+      { japanese: '両親が元気なうちに、一緒に旅行したい。', romaji: 'Ryoushin ga genki na uchi ni, issho ni ryokou shitai.', meaning: 'Selagi orang tua masih sehat, saya ingin traveling bersama.' }
+    ]
+  },
+  { 
+    title: '~ばかりだ / ~一方だ (Bakari da / Ippou da)', 
+    formula: 'KK(Kamus) + ばかりだ / 一方だ', 
+    explanation: 'Menjelaskan perubahan yang terus berlanjut ke satu arah. "Bakari da" sering untuk hal negatif, "Ippou da" bisa netral atau negatif.', 
+    level: 'N2',
+    examples: [
+      { japanese: '手術をしてから、父の病気は悪くなるばかりだ。', romaji: 'Shujutsu o shite kara, chichi no byouki wa waruku naru bakari da.', meaning: 'Sejak operasi, penyakit ayah terus memburuk.' },
+      { japanese: '最近、仕事は忙しくなる一方だ。', romaji: 'Saikin, shigoto wa isogashiku naru ippou da.', meaning: 'Akhir-akhir ini, pekerjaan makin lama makin sibuk.' },
+      { japanese: 'ガソリンの値段は上がる一方だ。', romaji: 'Gasorin no nedan wa agaru ippou da.', meaning: 'Harga bensin terus-menerus naik.' }
+    ]
+  },
+  { 
+    title: '~ようとしている (You to shite iru)', 
+    formula: 'KK(Volisional) + としている', 
+    explanation: 'Sesaat sebelum sesuatu terjadi atau dimulai. Bahasa formal/tertulis untuk "akan segera".', 
+    level: 'N2',
+    examples: [
+      { japanese: 'コンサートが始まろうとしている。', romaji: 'Konsaato ga hajimarou to shite iru.', meaning: 'Konser akan segera dimulai.' },
+      { japanese: '新しい時代が来ようとしている。', romaji: 'Atarashii jidai ga koyou to shite iru.', meaning: 'Zaman baru akan segera datang.' },
+      { japanese: '太陽が沈もうとしている。', romaji: 'Taiyou ga shizumou to shite iru.', meaning: 'Matahari akan segera terbenam.' }
+    ]
+  },
+  { 
+    title: '~つつある (Tsutsu aru)', 
+    formula: 'KK(Masu-stem) + つつある', 
+    explanation: 'Sedang dalam proses perubahan. Mirip dengan "te-iru" tapi lebih kaku/formal dan menekankan proses yang sedang berjalan.', 
+    level: 'N2',
+    examples: [
+      { japanese: '景気は徐々に回復しつつある。', romaji: 'Keiki wa jojoni kaifuku shi tsutsu aru.', meaning: 'Kondisi ekonomi sedang berangsur pulih.' },
+      { japanese: 'この国の人口は減りつつある。', romaji: 'Kono kuni no jinkou wa heri tsutsu aru.', meaning: 'Populasi negara ini sedang terus berkurang.' },
+      { japanese: '新しい技術が普及しつつある。', romaji: 'Atarashii gijutsu ga fukyuu shi tsutsu aru.', meaning: 'Teknologi baru sedang mulai tersebar luas.' }
+    ]
+  }
+];
