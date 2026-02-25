@@ -35,9 +35,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.npm
-          key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
+          key: npm-v2-${{ runner.os }}-${{ hashFiles('**/package-lock.json', 'package.json') }}
           restore-keys: |
-            npm-${{ runner.os }}-
+            npm-v2-${{ runner.os }}-
 
       # Cache node_modules — skip install jika hit
       - name: Cache node_modules
@@ -45,9 +45,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: node_modules
-          key: modules-${{ runner.os }}-${{ hashFiles('package.json') }}
+          key: modules-v2-${{ runner.os }}-${{ hashFiles('**/package-lock.json', 'package.json') }}
           restore-keys: |
-            modules-${{ runner.os }}-
+            modules-v2-${{ runner.os }}-
 
       - name: Cache Gradle packages
         uses: actions/cache@v4
@@ -61,18 +61,21 @@ jobs:
       # Konfigurasi npm TANPA auth token — hapus .npmrc buatan setup-node jika ada
       - name: Configure npm (no auth, public registry)
         run: |
-          # Hapus .npmrc yang mungkin berisi _authToken kosong (dibuat setup-node)
+          # Hapus SEMUA .npmrc yang mungkin berisi _authToken (termasuk dari cache lama)
           rm -f ~/.npmrc
           rm -f .npmrc
+          rm -f /home/runner/work/_temp/.npmrc || true
 
-          # Tulis .npmrc bersih: registry publik, tanpa auth, dengan retry
-          cat > ~/.npmrc << 'NPMRC_EOF'
-          registry=https://registry.npmjs.org
-          fetch-retries=5
-          fetch-retry-mintimeout=10000
-          fetch-retry-maxtimeout=60000
-          fetch-timeout=300000
-          NPMRC_EOF
+          # Tulis .npmrc bersih tanpa heredoc (menghindari masalah indentasi YAML)
+          npm config set registry https://registry.npmjs.org
+          npm config set fetch-retries 5
+          npm config set fetch-retry-mintimeout 10000
+          npm config set fetch-retry-maxtimeout 60000
+          npm config set fetch-timeout 300000
+
+          # Pastikan tidak ada _authToken tersisa dari cache atau env
+          npm config delete _authToken || true
+          npm config delete //registry.npmjs.org/:_authToken || true
 
           echo "=== .npmrc aktif ==="
           cat ~/.npmrc
@@ -82,7 +85,7 @@ jobs:
       # Install hanya jika node_modules belum di-cache
       - name: Install npm dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
-        run: npm install --legacy-peer-deps
+        run: npm install --legacy-peer-deps --registry https://registry.npmjs.org
 
       - name: Verify TTS plugin installed
         run: |
